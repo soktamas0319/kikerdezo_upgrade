@@ -1,0 +1,778 @@
+[13-May-2019 22:30:28 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/soktamas/public_html/temavalasztas_gyakorlasra_kod.php:4
+Stack trace:
+#0 /home/soktamas/public_html/gyakorlas_kezd.php(57): include()
+#1 {main}
+  thrown in /home/soktamas/public_html/temavalasztas_gyakorlasra_kod.php on line 4
+[13-May-2019 22:33:51 Europe/London] PHP Notice:  Use of undefined constant nev - assumed 'nev' in /home/soktamas/public_html/regisztracio_kod.php on line 2
+[13-May-2019 22:33:51 Europe/London] PHP Notice:  Undefined index: nev in /home/soktamas/public_html/regisztracio_kod.php on line 2
+[13-May-2019 22:33:51 Europe/London] PHP Notice:  Use of undefined constant jelszo - assumed 'jelszo' in /home/soktamas/public_html/regisztracio_kod.php on line 3
+[13-May-2019 22:33:51 Europe/London] PHP Notice:  Undefined index: jelszo in /home/soktamas/public_html/regisztracio_kod.php on line 3
+[13-May-2019 22:33:51 Europe/London] PHP Notice:  Use of undefined constant jelszo_conf - assumed 'jelszo_conf' in /home/soktamas/public_html/regisztracio_kod.php on line 4
+[13-May-2019 22:33:51 Europe/London] PHP Notice:  Undefined index: jelszo_conf in /home/soktamas/public_html/regisztracio_kod.php on line 4
+[13-May-2019 22:33:51 Europe/London] PHP Notice:  Use of undefined constant rendes_nev - assumed 'rendes_nev' in /home/soktamas/public_html/regisztracio_kod.php on line 5
+[13-May-2019 22:33:51 Europe/London] PHP Notice:  Undefined index: rendes_nev in /home/soktamas/public_html/regisztracio_kod.php on line 5
+[13-May-2019 22:33:51 Europe/London] PHP Notice:  Use of undefined constant email - assumed 'email' in /home/soktamas/public_html/regisztracio_kod.php on line 6
+[13-May-2019 22:33:51 Europe/London] PHP Notice:  Undefined index: email in /home/soktamas/public_html/regisztracio_kod.php on line 6
+[13-May-2019 22:47:22 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/soktamas/public_html/temavalasztas_gyakorlasra_kod.php:4
+Stack trace:
+#0 /home/soktamas/public_html/gyakorlas_kezd.php(57): include()
+#1 {main}
+  thrown in /home/soktamas/public_html/temavalasztas_gyakorlasra_kod.php on line 4
+[13-May-2019 22:55:34 Europe/London] PHP Warning:  include(/kezdo_oldal_szoveg.php): failed to open stream: No such file or directory in /home/soktamas/public_html/kezdo_oldal.php on line 55
+[13-May-2019 22:55:34 Europe/London] PHP Warning:  include(/kezdo_oldal_szoveg.php): failed to open stream: No such file or directory in /home/soktamas/public_html/kezdo_oldal.php on line 55
+[13-May-2019 22:55:34 Europe/London] PHP Warning:  include(): Failed opening '/kezdo_oldal_szoveg.php' for inclusion (include_path='.:/opt/alt/php70/usr/share/pear') in /home/soktamas/public_html/kezdo_oldal.php on line 55
+[13-May-2019 22:55:37 Europe/London] PHP Warning:  include(/kezdo_oldal_szoveg.php): failed to open stream: No such file or directory in /home/soktamas/public_html/kezdo_oldal.php on line 55
+[13-May-2019 22:55:37 Europe/London] PHP Warning:  include(/kezdo_oldal_szoveg.php): failed to open stream: No such file or directory in /home/soktamas/public_html/kezdo_oldal.php on line 55
+[13-May-2019 22:55:37 Europe/London] PHP Warning:  include(): Failed opening '/kezdo_oldal_szoveg.php' for inclusion (include_path='.:/opt/alt/php70/usr/share/pear') in /home/soktamas/public_html/kezdo_oldal.php on line 55
+[13-May-2019 22:55:39 Europe/London] PHP Warning:  include(/kezdo_oldal_szoveg.php): failed to open stream: No such file or directory in /home/soktamas/public_html/kezdo_oldal.php on line 55
+[13-May-2019 22:55:39 Europe/London] PHP Warning:  include(/kezdo_oldal_szoveg.php): failed to open stream: No such file or directory in /home/soktamas/public_html/kezdo_oldal.php on line 55
+[13-May-2019 22:55:39 Europe/London] PHP Warning:  include(): Failed opening '/kezdo_oldal_szoveg.php' for inclusion (include_path='.:/opt/alt/php70/usr/share/pear') in /home/soktamas/public_html/kezdo_oldal.php on line 55
+[13-May-2019 22:55:40 Europe/London] PHP Warning:  include(/kezdo_oldal_szoveg.php): failed to open stream: No such file or directory in /home/soktamas/public_html/kezdo_oldal.php on line 55
+[13-May-2019 22:55:40 Europe/London] PHP Warning:  include(/kezdo_oldal_szoveg.php): failed to open stream: No such file or directory in /home/soktamas/public_html/kezdo_oldal.php on line 55
+[13-May-2019 22:55:40 Europe/London] PHP Warning:  include(): Failed opening '/kezdo_oldal_szoveg.php' for inclusion (include_path='.:/opt/alt/php70/usr/share/pear') in /home/soktamas/public_html/kezdo_oldal.php on line 55
+[13-May-2019 22:56:51 Europe/London] PHP Notice:  Array to string conversion in /home/soktamas/public_html/kezdo_oldal.php on line 55
+[13-May-2019 22:56:51 Europe/London] PHP Warning:  include(Array): failed to open stream: No such file or directory in /home/soktamas/public_html/kezdo_oldal.php on line 55
+[13-May-2019 22:56:51 Europe/London] PHP Warning:  include(Array): failed to open stream: No such file or directory in /home/soktamas/public_html/kezdo_oldal.php on line 55
+[13-May-2019 22:56:51 Europe/London] PHP Warning:  include(): Failed opening 'Array' for inclusion (include_path='.:/opt/alt/php70/usr/share/pear') in /home/soktamas/public_html/kezdo_oldal.php on line 55
+[13-May-2019 22:56:52 Europe/London] PHP Notice:  Array to string conversion in /home/soktamas/public_html/kezdo_oldal.php on line 55
+[13-May-2019 22:56:52 Europe/London] PHP Warning:  include(Array): failed to open stream: No such file or directory in /home/soktamas/public_html/kezdo_oldal.php on line 55
+[13-May-2019 22:56:52 Europe/London] PHP Warning:  include(Array): failed to open stream: No such file or directory in /home/soktamas/public_html/kezdo_oldal.php on line 55
+[13-May-2019 22:56:52 Europe/London] PHP Warning:  include(): Failed opening 'Array' for inclusion (include_path='.:/opt/alt/php70/usr/share/pear') in /home/soktamas/public_html/kezdo_oldal.php on line 55
+[13-May-2019 22:56:53 Europe/London] PHP Notice:  Array to string conversion in /home/soktamas/public_html/kezdo_oldal.php on line 55
+[13-May-2019 22:56:53 Europe/London] PHP Warning:  include(Array): failed to open stream: No such file or directory in /home/soktamas/public_html/kezdo_oldal.php on line 55
+[13-May-2019 22:56:53 Europe/London] PHP Warning:  include(Array): failed to open stream: No such file or directory in /home/soktamas/public_html/kezdo_oldal.php on line 55
+[13-May-2019 22:56:53 Europe/London] PHP Warning:  include(): Failed opening 'Array' for inclusion (include_path='.:/opt/alt/php70/usr/share/pear') in /home/soktamas/public_html/kezdo_oldal.php on line 55
+[13-May-2019 22:57:25 Europe/London] PHP Warning:  file(/kezdo_oldal_szoveg.php): failed to open stream: No such file or directory in /home/soktamas/public_html/kezdo_oldal.php on line 55
+[13-May-2019 22:57:25 Europe/London] PHP Warning:  include(): Filename cannot be empty in /home/soktamas/public_html/kezdo_oldal.php on line 55
+[13-May-2019 22:57:25 Europe/London] PHP Warning:  include(): Filename cannot be empty in /home/soktamas/public_html/kezdo_oldal.php on line 55
+[13-May-2019 22:57:25 Europe/London] PHP Warning:  include(): Failed opening '' for inclusion (include_path='.:/opt/alt/php70/usr/share/pear') in /home/soktamas/public_html/kezdo_oldal.php on line 55
+[13-May-2019 22:57:55 Europe/London] PHP Warning:  file(/kezdo_oldal_szoveg.php): failed to open stream: No such file or directory in /home/soktamas/public_html/kezdo_oldal.php on line 55
+[13-May-2019 22:57:55 Europe/London] PHP Warning:  include(): Filename cannot be empty in /home/soktamas/public_html/kezdo_oldal.php on line 55
+[13-May-2019 22:57:55 Europe/London] PHP Warning:  include(): Filename cannot be empty in /home/soktamas/public_html/kezdo_oldal.php on line 55
+[13-May-2019 22:57:55 Europe/London] PHP Warning:  include(): Failed opening '' for inclusion (include_path='.:/opt/alt/php70/usr/share/pear') in /home/soktamas/public_html/kezdo_oldal.php on line 55
+[15-May-2019 08:17:41 Europe/London] PHP Parse error:  syntax error, unexpected 'include' (T_INCLUDE) in /home/soktamas/public_html/kezdo_oldal.php on line 56
+[15-May-2019 08:17:48 Europe/London] PHP Parse error:  syntax error, unexpected 'include' (T_INCLUDE) in /home/soktamas/public_html/kezdo_oldal.php on line 56
+[15-May-2019 08:17:50 Europe/London] PHP Parse error:  syntax error, unexpected 'include' (T_INCLUDE) in /home/soktamas/public_html/kezdo_oldal.php on line 56
+[15-May-2019 08:17:51 Europe/London] PHP Parse error:  syntax error, unexpected 'include' (T_INCLUDE) in /home/soktamas/public_html/kezdo_oldal.php on line 56
+[15-May-2019 08:19:09 Europe/London] PHP Parse error:  syntax error, unexpected '?>' in /home/soktamas/public_html/kezdo_oldal.php on line 57
+[15-May-2019 08:19:14 Europe/London] PHP Parse error:  syntax error, unexpected '?>' in /home/soktamas/public_html/kezdo_oldal.php on line 57
+[15-May-2019 08:19:20 Europe/London] PHP Parse error:  syntax error, unexpected '?>' in /home/soktamas/public_html/kezdo_oldal.php on line 57
+[15-May-2019 09:07:00 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/soktamas/public_html/temavalasztas_gyakorlasra_kod.php:4
+Stack trace:
+#0 /home/soktamas/public_html/gyakorlas_kezd.php(57): include()
+#1 {main}
+  thrown in /home/soktamas/public_html/temavalasztas_gyakorlasra_kod.php on line 4
+[15-May-2019 09:07:03 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/soktamas/public_html/temavalasztas_szamonkeresre_kod.php:5
+Stack trace:
+#0 /home/soktamas/public_html/szamonkeres_kezd.php(57): include()
+#1 {main}
+  thrown in /home/soktamas/public_html/temavalasztas_szamonkeresre_kod.php on line 5
+[15-May-2019 09:07:04 Europe/London] PHP Notice:  Use of undefined constant Tema - assumed 'Tema' in /home/soktamas/public_html/eredmeny_kod.php on line 96
+[15-May-2019 09:07:04 Europe/London] PHP Notice:  Undefined index: Tema in /home/soktamas/public_html/eredmeny_kod.php on line 96
+[15-May-2019 09:07:04 Europe/London] PHP Notice:  Use of undefined constant kerdesek_szama - assumed 'kerdesek_szama' in /home/soktamas/public_html/eredmeny_kod.php on line 97
+[15-May-2019 09:07:04 Europe/London] PHP Notice:  Undefined index: kerdesek_szama in /home/soktamas/public_html/eredmeny_kod.php on line 97
+[15-May-2019 09:07:04 Europe/London] PHP Notice:  Use of undefined constant jo_valasz_szamlalo - assumed 'jo_valasz_szamlalo' in /home/soktamas/public_html/eredmeny_kod.php on line 98
+[15-May-2019 09:07:04 Europe/London] PHP Notice:  Undefined index: jo_valasz_szamlalo in /home/soktamas/public_html/eredmeny_kod.php on line 98
+[15-May-2019 09:07:04 Europe/London] PHP Notice:  Use of undefined constant tema_azon - assumed 'tema_azon' in /home/soktamas/public_html/eredmeny_kod.php on line 99
+[15-May-2019 09:07:04 Europe/London] PHP Notice:  Undefined index: tema_azon in /home/soktamas/public_html/eredmeny_kod.php on line 99
+[15-May-2019 09:07:04 Europe/London] PHP Notice:  Use of undefined constant kerdes_szam - assumed 'kerdes_szam' in /home/soktamas/public_html/eredmeny_kod.php on line 101
+[15-May-2019 09:07:04 Europe/London] PHP Notice:  Undefined index: kerdes_szam in /home/soktamas/public_html/eredmeny_kod.php on line 101
+[15-May-2019 09:07:04 Europe/London] PHP Notice:  Use of undefined constant tablanev_mezo - assumed 'tablanev_mezo' in /home/soktamas/public_html/eredmeny_kod.php on line 102
+[15-May-2019 09:07:04 Europe/London] PHP Notice:  Undefined index: tablanev_mezo in /home/soktamas/public_html/eredmeny_kod.php on line 102
+[15-May-2019 09:07:04 Europe/London] PHP Notice:  Use of undefined constant helyes - assumed 'helyes' in /home/soktamas/public_html/eredmeny_kod.php on line 104
+[15-May-2019 09:07:04 Europe/London] PHP Notice:  Use of undefined constant tablanev_mezo - assumed 'tablanev_mezo' in /home/soktamas/public_html/eredmeny_kod.php on line 113
+[15-May-2019 09:07:04 Europe/London] PHP Notice:  Undefined index: tablanev_mezo in /home/soktamas/public_html/eredmeny_kod.php on line 113
+[15-May-2019 09:07:04 Europe/London] PHP Notice:  Use of undefined constant nev_mezo - assumed 'nev_mezo' in /home/soktamas/public_html/eredmeny_kod.php on line 115
+[15-May-2019 09:07:04 Europe/London] PHP Notice:  Undefined index: nev_mezo in /home/soktamas/public_html/eredmeny_kod.php on line 115
+[15-May-2019 09:07:04 Europe/London] PHP Notice:  Constant DB_HOSZT already defined in /home/soktamas/public_html/beallitas.php on line 2
+[15-May-2019 09:07:04 Europe/London] PHP Notice:  Constant DB_FELH_NEV already defined in /home/soktamas/public_html/beallitas.php on line 3
+[15-May-2019 09:07:04 Europe/London] PHP Notice:  Constant DB_JELSZO already defined in /home/soktamas/public_html/beallitas.php on line 4
+[15-May-2019 09:07:04 Europe/London] PHP Notice:  Constant DB_NEV already defined in /home/soktamas/public_html/beallitas.php on line 5
+[15-May-2019 09:07:04 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/soktamas/public_html/eredmeny_lekerdezes_kezd_kod.php:6
+Stack trace:
+#0 /home/soktamas/public_html/eredmeny_kod.php(133): include()
+#1 /home/soktamas/public_html/eredmeny_keret.php(56): include('/home/soktamas/...')
+#2 {main}
+  thrown in /home/soktamas/public_html/eredmeny_lekerdezes_kezd_kod.php on line 6
+[15-May-2019 09:07:05 Europe/London] PHP Notice:  Use of undefined constant nev - assumed 'nev' in /home/soktamas/public_html/regisztracio_kod.php on line 2
+[15-May-2019 09:07:05 Europe/London] PHP Notice:  Undefined index: nev in /home/soktamas/public_html/regisztracio_kod.php on line 2
+[15-May-2019 09:07:05 Europe/London] PHP Notice:  Use of undefined constant jelszo - assumed 'jelszo' in /home/soktamas/public_html/regisztracio_kod.php on line 3
+[15-May-2019 09:07:05 Europe/London] PHP Notice:  Undefined index: jelszo in /home/soktamas/public_html/regisztracio_kod.php on line 3
+[15-May-2019 09:07:05 Europe/London] PHP Notice:  Use of undefined constant jelszo_conf - assumed 'jelszo_conf' in /home/soktamas/public_html/regisztracio_kod.php on line 4
+[15-May-2019 09:07:05 Europe/London] PHP Notice:  Undefined index: jelszo_conf in /home/soktamas/public_html/regisztracio_kod.php on line 4
+[15-May-2019 09:07:05 Europe/London] PHP Notice:  Use of undefined constant rendes_nev - assumed 'rendes_nev' in /home/soktamas/public_html/regisztracio_kod.php on line 5
+[15-May-2019 09:07:05 Europe/London] PHP Notice:  Undefined index: rendes_nev in /home/soktamas/public_html/regisztracio_kod.php on line 5
+[15-May-2019 09:07:05 Europe/London] PHP Notice:  Use of undefined constant email - assumed 'email' in /home/soktamas/public_html/regisztracio_kod.php on line 6
+[15-May-2019 09:07:05 Europe/London] PHP Notice:  Undefined index: email in /home/soktamas/public_html/regisztracio_kod.php on line 6
+[15-May-2019 10:02:19 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/soktamas/public_html/temavalasztas_gyakorlasra_kod.php:4
+Stack trace:
+#0 /home/soktamas/public_html/gyakorlas_kezd.php(57): include()
+#1 {main}
+  thrown in /home/soktamas/public_html/temavalasztas_gyakorlasra_kod.php on line 4
+[15-May-2019 10:14:25 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/soktamas/public_html/temavalasztas_gyakorlasra_kod.php:4
+Stack trace:
+#0 /home/soktamas/public_html/gyakorlas_kezd.php(57): include()
+#1 {main}
+  thrown in /home/soktamas/public_html/temavalasztas_gyakorlasra_kod.php on line 4
+[15-May-2019 10:14:38 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/soktamas/public_html/temavalasztas_gyakorlasra_kod.php:4
+Stack trace:
+#0 /home/soktamas/public_html/gyakorlas_kezd.php(57): include()
+#1 {main}
+  thrown in /home/soktamas/public_html/temavalasztas_gyakorlasra_kod.php on line 4
+[15-May-2019 10:16:10 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/soktamas/public_html/temavalasztas_gyakorlasra_kod.php:4
+Stack trace:
+#0 /home/soktamas/public_html/gyakorlas_kezd.php(57): include()
+#1 {main}
+  thrown in /home/soktamas/public_html/temavalasztas_gyakorlasra_kod.php on line 4
+[15-May-2019 10:16:11 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/soktamas/public_html/temavalasztas_gyakorlasra_kod.php:4
+Stack trace:
+#0 /home/soktamas/public_html/gyakorlas_kezd.php(57): include()
+#1 {main}
+  thrown in /home/soktamas/public_html/temavalasztas_gyakorlasra_kod.php on line 4
+[15-May-2019 10:16:21 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/soktamas/public_html/temavalasztas_gyakorlasra_kod.php:4
+Stack trace:
+#0 /home/soktamas/public_html/gyakorlas_kezd.php(57): include()
+#1 {main}
+  thrown in /home/soktamas/public_html/temavalasztas_gyakorlasra_kod.php on line 4
+[15-May-2019 10:16:23 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/soktamas/public_html/temavalasztas_gyakorlasra_kod.php:4
+Stack trace:
+#0 /home/soktamas/public_html/gyakorlas_kezd.php(57): include()
+#1 {main}
+  thrown in /home/soktamas/public_html/temavalasztas_gyakorlasra_kod.php on line 4
+[15-May-2019 10:16:55 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/soktamas/public_html/temavalasztas_gyakorlasra_kod.php:4
+Stack trace:
+#0 /home/soktamas/public_html/gyakorlas_kezd.php(57): include()
+#1 {main}
+  thrown in /home/soktamas/public_html/temavalasztas_gyakorlasra_kod.php on line 4
+[15-May-2019 10:17:00 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/soktamas/public_html/temavalasztas_szamonkeresre_kod.php:5
+Stack trace:
+#0 /home/soktamas/public_html/szamonkeres_kezd.php(57): include()
+#1 {main}
+  thrown in /home/soktamas/public_html/temavalasztas_szamonkeresre_kod.php on line 5
+[15-May-2019 10:17:29 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/soktamas/public_html/temavalasztas_szamonkeresre_kod.php:5
+Stack trace:
+#0 /home/soktamas/public_html/szamonkeres_kezd.php(57): include()
+#1 {main}
+  thrown in /home/soktamas/public_html/temavalasztas_szamonkeresre_kod.php on line 5
+[15-May-2019 10:17:32 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/soktamas/public_html/temavalasztas_szamonkeresre_kod.php:5
+Stack trace:
+#0 /home/soktamas/public_html/szamonkeres_kezd.php(57): include()
+#1 {main}
+  thrown in /home/soktamas/public_html/temavalasztas_szamonkeresre_kod.php on line 5
+[15-May-2019 10:17:53 Europe/London] PHP Notice:  Use of undefined constant Tema - assumed 'Tema' in /home/soktamas/public_html/eredmeny_kod.php on line 96
+[15-May-2019 10:17:53 Europe/London] PHP Notice:  Undefined index: Tema in /home/soktamas/public_html/eredmeny_kod.php on line 96
+[15-May-2019 10:17:53 Europe/London] PHP Notice:  Use of undefined constant kerdesek_szama - assumed 'kerdesek_szama' in /home/soktamas/public_html/eredmeny_kod.php on line 97
+[15-May-2019 10:17:53 Europe/London] PHP Notice:  Undefined index: kerdesek_szama in /home/soktamas/public_html/eredmeny_kod.php on line 97
+[15-May-2019 10:17:53 Europe/London] PHP Notice:  Use of undefined constant jo_valasz_szamlalo - assumed 'jo_valasz_szamlalo' in /home/soktamas/public_html/eredmeny_kod.php on line 98
+[15-May-2019 10:17:53 Europe/London] PHP Notice:  Undefined index: jo_valasz_szamlalo in /home/soktamas/public_html/eredmeny_kod.php on line 98
+[15-May-2019 10:17:53 Europe/London] PHP Notice:  Use of undefined constant tema_azon - assumed 'tema_azon' in /home/soktamas/public_html/eredmeny_kod.php on line 99
+[15-May-2019 10:17:53 Europe/London] PHP Notice:  Undefined index: tema_azon in /home/soktamas/public_html/eredmeny_kod.php on line 99
+[15-May-2019 10:17:53 Europe/London] PHP Notice:  Use of undefined constant kerdes_szam - assumed 'kerdes_szam' in /home/soktamas/public_html/eredmeny_kod.php on line 101
+[15-May-2019 10:17:53 Europe/London] PHP Notice:  Undefined index: kerdes_szam in /home/soktamas/public_html/eredmeny_kod.php on line 101
+[15-May-2019 10:17:53 Europe/London] PHP Notice:  Use of undefined constant tablanev_mezo - assumed 'tablanev_mezo' in /home/soktamas/public_html/eredmeny_kod.php on line 102
+[15-May-2019 10:17:53 Europe/London] PHP Notice:  Undefined index: tablanev_mezo in /home/soktamas/public_html/eredmeny_kod.php on line 102
+[15-May-2019 10:17:53 Europe/London] PHP Notice:  Use of undefined constant helyes - assumed 'helyes' in /home/soktamas/public_html/eredmeny_kod.php on line 104
+[15-May-2019 10:17:53 Europe/London] PHP Notice:  Use of undefined constant tablanev_mezo - assumed 'tablanev_mezo' in /home/soktamas/public_html/eredmeny_kod.php on line 113
+[15-May-2019 10:17:53 Europe/London] PHP Notice:  Undefined index: tablanev_mezo in /home/soktamas/public_html/eredmeny_kod.php on line 113
+[15-May-2019 10:17:53 Europe/London] PHP Notice:  Use of undefined constant nev_mezo - assumed 'nev_mezo' in /home/soktamas/public_html/eredmeny_kod.php on line 115
+[15-May-2019 10:17:53 Europe/London] PHP Notice:  Undefined index: nev_mezo in /home/soktamas/public_html/eredmeny_kod.php on line 115
+[15-May-2019 10:17:53 Europe/London] PHP Notice:  Constant DB_HOSZT already defined in /home/soktamas/public_html/beallitas.php on line 2
+[15-May-2019 10:17:53 Europe/London] PHP Notice:  Constant DB_FELH_NEV already defined in /home/soktamas/public_html/beallitas.php on line 3
+[15-May-2019 10:17:53 Europe/London] PHP Notice:  Constant DB_JELSZO already defined in /home/soktamas/public_html/beallitas.php on line 4
+[15-May-2019 10:17:53 Europe/London] PHP Notice:  Constant DB_NEV already defined in /home/soktamas/public_html/beallitas.php on line 5
+[15-May-2019 10:17:53 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/soktamas/public_html/eredmeny_lekerdezes_kezd_kod.php:6
+Stack trace:
+#0 /home/soktamas/public_html/eredmeny_kod.php(133): include()
+#1 /home/soktamas/public_html/eredmeny_keret.php(56): include('/home/soktamas/...')
+#2 {main}
+  thrown in /home/soktamas/public_html/eredmeny_lekerdezes_kezd_kod.php on line 6
+[15-May-2019 10:18:16 Europe/London] PHP Notice:  Use of undefined constant Tema - assumed 'Tema' in /home/soktamas/public_html/eredmeny_kod.php on line 96
+[15-May-2019 10:18:16 Europe/London] PHP Notice:  Undefined index: Tema in /home/soktamas/public_html/eredmeny_kod.php on line 96
+[15-May-2019 10:18:16 Europe/London] PHP Notice:  Use of undefined constant kerdesek_szama - assumed 'kerdesek_szama' in /home/soktamas/public_html/eredmeny_kod.php on line 97
+[15-May-2019 10:18:16 Europe/London] PHP Notice:  Undefined index: kerdesek_szama in /home/soktamas/public_html/eredmeny_kod.php on line 97
+[15-May-2019 10:18:16 Europe/London] PHP Notice:  Use of undefined constant jo_valasz_szamlalo - assumed 'jo_valasz_szamlalo' in /home/soktamas/public_html/eredmeny_kod.php on line 98
+[15-May-2019 10:18:16 Europe/London] PHP Notice:  Undefined index: jo_valasz_szamlalo in /home/soktamas/public_html/eredmeny_kod.php on line 98
+[15-May-2019 10:18:16 Europe/London] PHP Notice:  Use of undefined constant tema_azon - assumed 'tema_azon' in /home/soktamas/public_html/eredmeny_kod.php on line 99
+[15-May-2019 10:18:16 Europe/London] PHP Notice:  Undefined index: tema_azon in /home/soktamas/public_html/eredmeny_kod.php on line 99
+[15-May-2019 10:18:16 Europe/London] PHP Notice:  Use of undefined constant kerdes_szam - assumed 'kerdes_szam' in /home/soktamas/public_html/eredmeny_kod.php on line 101
+[15-May-2019 10:18:16 Europe/London] PHP Notice:  Undefined index: kerdes_szam in /home/soktamas/public_html/eredmeny_kod.php on line 101
+[15-May-2019 10:18:16 Europe/London] PHP Notice:  Use of undefined constant tablanev_mezo - assumed 'tablanev_mezo' in /home/soktamas/public_html/eredmeny_kod.php on line 102
+[15-May-2019 10:18:16 Europe/London] PHP Notice:  Undefined index: tablanev_mezo in /home/soktamas/public_html/eredmeny_kod.php on line 102
+[15-May-2019 10:18:16 Europe/London] PHP Notice:  Use of undefined constant helyes - assumed 'helyes' in /home/soktamas/public_html/eredmeny_kod.php on line 104
+[15-May-2019 10:18:16 Europe/London] PHP Notice:  Use of undefined constant tablanev_mezo - assumed 'tablanev_mezo' in /home/soktamas/public_html/eredmeny_kod.php on line 113
+[15-May-2019 10:18:16 Europe/London] PHP Notice:  Undefined index: tablanev_mezo in /home/soktamas/public_html/eredmeny_kod.php on line 113
+[15-May-2019 10:18:16 Europe/London] PHP Notice:  Use of undefined constant nev_mezo - assumed 'nev_mezo' in /home/soktamas/public_html/eredmeny_kod.php on line 115
+[15-May-2019 10:18:16 Europe/London] PHP Notice:  Undefined index: nev_mezo in /home/soktamas/public_html/eredmeny_kod.php on line 115
+[15-May-2019 10:18:16 Europe/London] PHP Notice:  Constant DB_HOSZT already defined in /home/soktamas/public_html/beallitas.php on line 2
+[15-May-2019 10:18:16 Europe/London] PHP Notice:  Constant DB_FELH_NEV already defined in /home/soktamas/public_html/beallitas.php on line 3
+[15-May-2019 10:18:16 Europe/London] PHP Notice:  Constant DB_JELSZO already defined in /home/soktamas/public_html/beallitas.php on line 4
+[15-May-2019 10:18:16 Europe/London] PHP Notice:  Constant DB_NEV already defined in /home/soktamas/public_html/beallitas.php on line 5
+[15-May-2019 10:18:16 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/soktamas/public_html/eredmeny_lekerdezes_kezd_kod.php:6
+Stack trace:
+#0 /home/soktamas/public_html/eredmeny_kod.php(133): include()
+#1 /home/soktamas/public_html/eredmeny_keret.php(56): include('/home/soktamas/...')
+#2 {main}
+  thrown in /home/soktamas/public_html/eredmeny_lekerdezes_kezd_kod.php on line 6
+[15-May-2019 10:18:18 Europe/London] PHP Notice:  Use of undefined constant nev - assumed 'nev' in /home/soktamas/public_html/regisztracio_kod.php on line 2
+[15-May-2019 10:18:18 Europe/London] PHP Notice:  Undefined index: nev in /home/soktamas/public_html/regisztracio_kod.php on line 2
+[15-May-2019 10:18:18 Europe/London] PHP Notice:  Use of undefined constant jelszo - assumed 'jelszo' in /home/soktamas/public_html/regisztracio_kod.php on line 3
+[15-May-2019 10:18:18 Europe/London] PHP Notice:  Undefined index: jelszo in /home/soktamas/public_html/regisztracio_kod.php on line 3
+[15-May-2019 10:18:18 Europe/London] PHP Notice:  Use of undefined constant jelszo_conf - assumed 'jelszo_conf' in /home/soktamas/public_html/regisztracio_kod.php on line 4
+[15-May-2019 10:18:18 Europe/London] PHP Notice:  Undefined index: jelszo_conf in /home/soktamas/public_html/regisztracio_kod.php on line 4
+[15-May-2019 10:18:18 Europe/London] PHP Notice:  Use of undefined constant rendes_nev - assumed 'rendes_nev' in /home/soktamas/public_html/regisztracio_kod.php on line 5
+[15-May-2019 10:18:18 Europe/London] PHP Notice:  Undefined index: rendes_nev in /home/soktamas/public_html/regisztracio_kod.php on line 5
+[15-May-2019 10:18:18 Europe/London] PHP Notice:  Use of undefined constant email - assumed 'email' in /home/soktamas/public_html/regisztracio_kod.php on line 6
+[15-May-2019 10:18:18 Europe/London] PHP Notice:  Undefined index: email in /home/soktamas/public_html/regisztracio_kod.php on line 6
+[15-May-2019 10:31:28 Europe/London] PHP Notice:  Use of undefined constant nev - assumed 'nev' in /home/soktamas/public_html/regisztracio_kod.php on line 2
+[15-May-2019 10:31:28 Europe/London] PHP Notice:  Undefined index: nev in /home/soktamas/public_html/regisztracio_kod.php on line 2
+[15-May-2019 10:31:28 Europe/London] PHP Notice:  Use of undefined constant jelszo - assumed 'jelszo' in /home/soktamas/public_html/regisztracio_kod.php on line 3
+[15-May-2019 10:31:28 Europe/London] PHP Notice:  Undefined index: jelszo in /home/soktamas/public_html/regisztracio_kod.php on line 3
+[15-May-2019 10:31:28 Europe/London] PHP Notice:  Use of undefined constant jelszo_conf - assumed 'jelszo_conf' in /home/soktamas/public_html/regisztracio_kod.php on line 4
+[15-May-2019 10:31:28 Europe/London] PHP Notice:  Undefined index: jelszo_conf in /home/soktamas/public_html/regisztracio_kod.php on line 4
+[15-May-2019 10:31:28 Europe/London] PHP Notice:  Use of undefined constant rendes_nev - assumed 'rendes_nev' in /home/soktamas/public_html/regisztracio_kod.php on line 5
+[15-May-2019 10:31:28 Europe/London] PHP Notice:  Undefined index: rendes_nev in /home/soktamas/public_html/regisztracio_kod.php on line 5
+[15-May-2019 10:31:28 Europe/London] PHP Notice:  Use of undefined constant email - assumed 'email' in /home/soktamas/public_html/regisztracio_kod.php on line 6
+[15-May-2019 10:31:28 Europe/London] PHP Notice:  Undefined index: email in /home/soktamas/public_html/regisztracio_kod.php on line 6
+[15-May-2019 10:31:36 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/soktamas/public_html/temavalasztas_gyakorlasra_kod.php:4
+Stack trace:
+#0 /home/soktamas/public_html/gyakorlas_kezd.php(57): include()
+#1 {main}
+  thrown in /home/soktamas/public_html/temavalasztas_gyakorlasra_kod.php on line 4
+[15-May-2019 10:31:38 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/soktamas/public_html/temavalasztas_szamonkeresre_kod.php:5
+Stack trace:
+#0 /home/soktamas/public_html/szamonkeres_kezd.php(57): include()
+#1 {main}
+  thrown in /home/soktamas/public_html/temavalasztas_szamonkeresre_kod.php on line 5
+[15-May-2019 10:31:43 Europe/London] PHP Notice:  Use of undefined constant Tema - assumed 'Tema' in /home/soktamas/public_html/eredmeny_kod.php on line 96
+[15-May-2019 10:31:43 Europe/London] PHP Notice:  Undefined index: Tema in /home/soktamas/public_html/eredmeny_kod.php on line 96
+[15-May-2019 10:31:43 Europe/London] PHP Notice:  Use of undefined constant kerdesek_szama - assumed 'kerdesek_szama' in /home/soktamas/public_html/eredmeny_kod.php on line 97
+[15-May-2019 10:31:43 Europe/London] PHP Notice:  Undefined index: kerdesek_szama in /home/soktamas/public_html/eredmeny_kod.php on line 97
+[15-May-2019 10:31:43 Europe/London] PHP Notice:  Use of undefined constant jo_valasz_szamlalo - assumed 'jo_valasz_szamlalo' in /home/soktamas/public_html/eredmeny_kod.php on line 98
+[15-May-2019 10:31:43 Europe/London] PHP Notice:  Undefined index: jo_valasz_szamlalo in /home/soktamas/public_html/eredmeny_kod.php on line 98
+[15-May-2019 10:31:43 Europe/London] PHP Notice:  Use of undefined constant tema_azon - assumed 'tema_azon' in /home/soktamas/public_html/eredmeny_kod.php on line 99
+[15-May-2019 10:31:43 Europe/London] PHP Notice:  Undefined index: tema_azon in /home/soktamas/public_html/eredmeny_kod.php on line 99
+[15-May-2019 10:31:43 Europe/London] PHP Notice:  Use of undefined constant kerdes_szam - assumed 'kerdes_szam' in /home/soktamas/public_html/eredmeny_kod.php on line 101
+[15-May-2019 10:31:43 Europe/London] PHP Notice:  Undefined index: kerdes_szam in /home/soktamas/public_html/eredmeny_kod.php on line 101
+[15-May-2019 10:31:43 Europe/London] PHP Notice:  Use of undefined constant tablanev_mezo - assumed 'tablanev_mezo' in /home/soktamas/public_html/eredmeny_kod.php on line 102
+[15-May-2019 10:31:43 Europe/London] PHP Notice:  Undefined index: tablanev_mezo in /home/soktamas/public_html/eredmeny_kod.php on line 102
+[15-May-2019 10:31:43 Europe/London] PHP Notice:  Use of undefined constant helyes - assumed 'helyes' in /home/soktamas/public_html/eredmeny_kod.php on line 104
+[15-May-2019 10:31:43 Europe/London] PHP Notice:  Use of undefined constant tablanev_mezo - assumed 'tablanev_mezo' in /home/soktamas/public_html/eredmeny_kod.php on line 113
+[15-May-2019 10:31:43 Europe/London] PHP Notice:  Undefined index: tablanev_mezo in /home/soktamas/public_html/eredmeny_kod.php on line 113
+[15-May-2019 10:31:43 Europe/London] PHP Notice:  Use of undefined constant nev_mezo - assumed 'nev_mezo' in /home/soktamas/public_html/eredmeny_kod.php on line 115
+[15-May-2019 10:31:43 Europe/London] PHP Notice:  Undefined index: nev_mezo in /home/soktamas/public_html/eredmeny_kod.php on line 115
+[15-May-2019 10:31:43 Europe/London] PHP Notice:  Constant DB_HOSZT already defined in /home/soktamas/public_html/beallitas.php on line 2
+[15-May-2019 10:31:43 Europe/London] PHP Notice:  Constant DB_FELH_NEV already defined in /home/soktamas/public_html/beallitas.php on line 3
+[15-May-2019 10:31:43 Europe/London] PHP Notice:  Constant DB_JELSZO already defined in /home/soktamas/public_html/beallitas.php on line 4
+[15-May-2019 10:31:43 Europe/London] PHP Notice:  Constant DB_NEV already defined in /home/soktamas/public_html/beallitas.php on line 5
+[15-May-2019 10:31:43 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/soktamas/public_html/eredmeny_lekerdezes_kezd_kod.php:6
+Stack trace:
+#0 /home/soktamas/public_html/eredmeny_kod.php(133): include()
+#1 /home/soktamas/public_html/eredmeny_keret.php(56): include('/home/soktamas/...')
+#2 {main}
+  thrown in /home/soktamas/public_html/eredmeny_lekerdezes_kezd_kod.php on line 6
+[15-May-2019 10:31:44 Europe/London] PHP Notice:  Use of undefined constant nev - assumed 'nev' in /home/soktamas/public_html/regisztracio_kod.php on line 2
+[15-May-2019 10:31:44 Europe/London] PHP Notice:  Undefined index: nev in /home/soktamas/public_html/regisztracio_kod.php on line 2
+[15-May-2019 10:31:44 Europe/London] PHP Notice:  Use of undefined constant jelszo - assumed 'jelszo' in /home/soktamas/public_html/regisztracio_kod.php on line 3
+[15-May-2019 10:31:44 Europe/London] PHP Notice:  Undefined index: jelszo in /home/soktamas/public_html/regisztracio_kod.php on line 3
+[15-May-2019 10:31:44 Europe/London] PHP Notice:  Use of undefined constant jelszo_conf - assumed 'jelszo_conf' in /home/soktamas/public_html/regisztracio_kod.php on line 4
+[15-May-2019 10:31:44 Europe/London] PHP Notice:  Undefined index: jelszo_conf in /home/soktamas/public_html/regisztracio_kod.php on line 4
+[15-May-2019 10:31:44 Europe/London] PHP Notice:  Use of undefined constant rendes_nev - assumed 'rendes_nev' in /home/soktamas/public_html/regisztracio_kod.php on line 5
+[15-May-2019 10:31:44 Europe/London] PHP Notice:  Undefined index: rendes_nev in /home/soktamas/public_html/regisztracio_kod.php on line 5
+[15-May-2019 10:31:44 Europe/London] PHP Notice:  Use of undefined constant email - assumed 'email' in /home/soktamas/public_html/regisztracio_kod.php on line 6
+[15-May-2019 10:31:44 Europe/London] PHP Notice:  Undefined index: email in /home/soktamas/public_html/regisztracio_kod.php on line 6
+[15-May-2019 10:31:48 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/soktamas/public_html/temavalasztas_gyakorlasra_kod.php:4
+Stack trace:
+#0 /home/soktamas/public_html/gyakorlas_kezd.php(57): include()
+#1 {main}
+  thrown in /home/soktamas/public_html/temavalasztas_gyakorlasra_kod.php on line 4
+[16-May-2019 19:24:37 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/soktamas/public_html/temavalasztas_gyakorlasra_kod.php:4
+Stack trace:
+#0 /home/soktamas/public_html/gyakorlas_kezd.php(57): include()
+#1 {main}
+  thrown in /home/soktamas/public_html/temavalasztas_gyakorlasra_kod.php on line 4
+[16-May-2019 19:24:38 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/soktamas/public_html/temavalasztas_szamonkeresre_kod.php:5
+Stack trace:
+#0 /home/soktamas/public_html/szamonkeres_kezd.php(57): include()
+#1 {main}
+  thrown in /home/soktamas/public_html/temavalasztas_szamonkeresre_kod.php on line 5
+[16-May-2019 19:24:40 Europe/London] PHP Notice:  Use of undefined constant Tema - assumed 'Tema' in /home/soktamas/public_html/eredmeny_kod.php on line 96
+[16-May-2019 19:24:40 Europe/London] PHP Notice:  Undefined index: Tema in /home/soktamas/public_html/eredmeny_kod.php on line 96
+[16-May-2019 19:24:40 Europe/London] PHP Notice:  Use of undefined constant kerdesek_szama - assumed 'kerdesek_szama' in /home/soktamas/public_html/eredmeny_kod.php on line 97
+[16-May-2019 19:24:40 Europe/London] PHP Notice:  Undefined index: kerdesek_szama in /home/soktamas/public_html/eredmeny_kod.php on line 97
+[16-May-2019 19:24:40 Europe/London] PHP Notice:  Use of undefined constant jo_valasz_szamlalo - assumed 'jo_valasz_szamlalo' in /home/soktamas/public_html/eredmeny_kod.php on line 98
+[16-May-2019 19:24:40 Europe/London] PHP Notice:  Undefined index: jo_valasz_szamlalo in /home/soktamas/public_html/eredmeny_kod.php on line 98
+[16-May-2019 19:24:40 Europe/London] PHP Notice:  Use of undefined constant tema_azon - assumed 'tema_azon' in /home/soktamas/public_html/eredmeny_kod.php on line 99
+[16-May-2019 19:24:40 Europe/London] PHP Notice:  Undefined index: tema_azon in /home/soktamas/public_html/eredmeny_kod.php on line 99
+[16-May-2019 19:24:40 Europe/London] PHP Notice:  Use of undefined constant kerdes_szam - assumed 'kerdes_szam' in /home/soktamas/public_html/eredmeny_kod.php on line 101
+[16-May-2019 19:24:40 Europe/London] PHP Notice:  Undefined index: kerdes_szam in /home/soktamas/public_html/eredmeny_kod.php on line 101
+[16-May-2019 19:24:40 Europe/London] PHP Notice:  Use of undefined constant tablanev_mezo - assumed 'tablanev_mezo' in /home/soktamas/public_html/eredmeny_kod.php on line 102
+[16-May-2019 19:24:40 Europe/London] PHP Notice:  Undefined index: tablanev_mezo in /home/soktamas/public_html/eredmeny_kod.php on line 102
+[16-May-2019 19:24:40 Europe/London] PHP Notice:  Use of undefined constant helyes - assumed 'helyes' in /home/soktamas/public_html/eredmeny_kod.php on line 104
+[16-May-2019 19:24:40 Europe/London] PHP Notice:  Use of undefined constant tablanev_mezo - assumed 'tablanev_mezo' in /home/soktamas/public_html/eredmeny_kod.php on line 113
+[16-May-2019 19:24:40 Europe/London] PHP Notice:  Undefined index: tablanev_mezo in /home/soktamas/public_html/eredmeny_kod.php on line 113
+[16-May-2019 19:24:40 Europe/London] PHP Notice:  Use of undefined constant nev_mezo - assumed 'nev_mezo' in /home/soktamas/public_html/eredmeny_kod.php on line 115
+[16-May-2019 19:24:40 Europe/London] PHP Notice:  Undefined index: nev_mezo in /home/soktamas/public_html/eredmeny_kod.php on line 115
+[16-May-2019 19:24:40 Europe/London] PHP Notice:  Constant DB_HOSZT already defined in /home/soktamas/public_html/beallitas.php on line 2
+[16-May-2019 19:24:40 Europe/London] PHP Notice:  Constant DB_FELH_NEV already defined in /home/soktamas/public_html/beallitas.php on line 3
+[16-May-2019 19:24:40 Europe/London] PHP Notice:  Constant DB_JELSZO already defined in /home/soktamas/public_html/beallitas.php on line 4
+[16-May-2019 19:24:40 Europe/London] PHP Notice:  Constant DB_NEV already defined in /home/soktamas/public_html/beallitas.php on line 5
+[16-May-2019 19:24:40 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/soktamas/public_html/eredmeny_lekerdezes_kezd_kod.php:6
+Stack trace:
+#0 /home/soktamas/public_html/eredmeny_kod.php(133): include()
+#1 /home/soktamas/public_html/eredmeny_keret.php(56): include('/home/soktamas/...')
+#2 {main}
+  thrown in /home/soktamas/public_html/eredmeny_lekerdezes_kezd_kod.php on line 6
+[16-May-2019 19:24:41 Europe/London] PHP Notice:  Use of undefined constant nev - assumed 'nev' in /home/soktamas/public_html/regisztracio_kod.php on line 2
+[16-May-2019 19:24:41 Europe/London] PHP Notice:  Undefined index: nev in /home/soktamas/public_html/regisztracio_kod.php on line 2
+[16-May-2019 19:24:41 Europe/London] PHP Notice:  Use of undefined constant jelszo - assumed 'jelszo' in /home/soktamas/public_html/regisztracio_kod.php on line 3
+[16-May-2019 19:24:41 Europe/London] PHP Notice:  Undefined index: jelszo in /home/soktamas/public_html/regisztracio_kod.php on line 3
+[16-May-2019 19:24:41 Europe/London] PHP Notice:  Use of undefined constant jelszo_conf - assumed 'jelszo_conf' in /home/soktamas/public_html/regisztracio_kod.php on line 4
+[16-May-2019 19:24:41 Europe/London] PHP Notice:  Undefined index: jelszo_conf in /home/soktamas/public_html/regisztracio_kod.php on line 4
+[16-May-2019 19:24:41 Europe/London] PHP Notice:  Use of undefined constant rendes_nev - assumed 'rendes_nev' in /home/soktamas/public_html/regisztracio_kod.php on line 5
+[16-May-2019 19:24:41 Europe/London] PHP Notice:  Undefined index: rendes_nev in /home/soktamas/public_html/regisztracio_kod.php on line 5
+[16-May-2019 19:24:41 Europe/London] PHP Notice:  Use of undefined constant email - assumed 'email' in /home/soktamas/public_html/regisztracio_kod.php on line 6
+[16-May-2019 19:24:41 Europe/London] PHP Notice:  Undefined index: email in /home/soktamas/public_html/regisztracio_kod.php on line 6
+[16-May-2019 20:04:02 Europe/London] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /home/soktamas/public_html/kezdo_oldal_szoveg.php on line 3
+[16-May-2019 20:04:06 Europe/London] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /home/soktamas/public_html/kezdo_oldal_szoveg.php on line 3
+[16-May-2019 20:04:09 Europe/London] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /home/soktamas/public_html/kezdo_oldal_szoveg.php on line 3
+[16-May-2019 20:04:12 Europe/London] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /home/soktamas/public_html/kezdo_oldal_szoveg.php on line 3
+[16-May-2019 20:04:27 Europe/London] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /home/soktamas/public_html/kezdo_oldal_szoveg.php on line 3
+[16-May-2019 20:04:28 Europe/London] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /home/soktamas/public_html/kezdo_oldal_szoveg.php on line 3
+[16-May-2019 20:04:29 Europe/London] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /home/soktamas/public_html/kezdo_oldal_szoveg.php on line 3
+[16-May-2019 20:04:31 Europe/London] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /home/soktamas/public_html/kezdo_oldal_szoveg.php on line 3
+[16-May-2019 20:04:33 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/soktamas/public_html/temavalasztas_gyakorlasra_kod.php:4
+Stack trace:
+#0 /home/soktamas/public_html/gyakorlas_kezd.php(57): include()
+#1 {main}
+  thrown in /home/soktamas/public_html/temavalasztas_gyakorlasra_kod.php on line 4
+[16-May-2019 20:04:34 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/soktamas/public_html/temavalasztas_szamonkeresre_kod.php:5
+Stack trace:
+#0 /home/soktamas/public_html/szamonkeres_kezd.php(57): include()
+#1 {main}
+  thrown in /home/soktamas/public_html/temavalasztas_szamonkeresre_kod.php on line 5
+[16-May-2019 20:04:37 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/soktamas/public_html/temavalasztas_gyakorlasra_kod.php:4
+Stack trace:
+#0 /home/soktamas/public_html/gyakorlas_kezd.php(57): include()
+#1 {main}
+  thrown in /home/soktamas/public_html/temavalasztas_gyakorlasra_kod.php on line 4
+[16-May-2019 20:04:40 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/soktamas/public_html/temavalasztas_szamonkeresre_kod.php:5
+Stack trace:
+#0 /home/soktamas/public_html/szamonkeres_kezd.php(57): include()
+#1 {main}
+  thrown in /home/soktamas/public_html/temavalasztas_szamonkeresre_kod.php on line 5
+[16-May-2019 20:04:42 Europe/London] PHP Notice:  Use of undefined constant Tema - assumed 'Tema' in /home/soktamas/public_html/eredmeny_kod.php on line 96
+[16-May-2019 20:04:42 Europe/London] PHP Notice:  Undefined index: Tema in /home/soktamas/public_html/eredmeny_kod.php on line 96
+[16-May-2019 20:04:42 Europe/London] PHP Notice:  Use of undefined constant kerdesek_szama - assumed 'kerdesek_szama' in /home/soktamas/public_html/eredmeny_kod.php on line 97
+[16-May-2019 20:04:42 Europe/London] PHP Notice:  Undefined index: kerdesek_szama in /home/soktamas/public_html/eredmeny_kod.php on line 97
+[16-May-2019 20:04:42 Europe/London] PHP Notice:  Use of undefined constant jo_valasz_szamlalo - assumed 'jo_valasz_szamlalo' in /home/soktamas/public_html/eredmeny_kod.php on line 98
+[16-May-2019 20:04:42 Europe/London] PHP Notice:  Undefined index: jo_valasz_szamlalo in /home/soktamas/public_html/eredmeny_kod.php on line 98
+[16-May-2019 20:04:42 Europe/London] PHP Notice:  Use of undefined constant tema_azon - assumed 'tema_azon' in /home/soktamas/public_html/eredmeny_kod.php on line 99
+[16-May-2019 20:04:42 Europe/London] PHP Notice:  Undefined index: tema_azon in /home/soktamas/public_html/eredmeny_kod.php on line 99
+[16-May-2019 20:04:42 Europe/London] PHP Notice:  Use of undefined constant kerdes_szam - assumed 'kerdes_szam' in /home/soktamas/public_html/eredmeny_kod.php on line 101
+[16-May-2019 20:04:42 Europe/London] PHP Notice:  Undefined index: kerdes_szam in /home/soktamas/public_html/eredmeny_kod.php on line 101
+[16-May-2019 20:04:42 Europe/London] PHP Notice:  Use of undefined constant tablanev_mezo - assumed 'tablanev_mezo' in /home/soktamas/public_html/eredmeny_kod.php on line 102
+[16-May-2019 20:04:42 Europe/London] PHP Notice:  Undefined index: tablanev_mezo in /home/soktamas/public_html/eredmeny_kod.php on line 102
+[16-May-2019 20:04:42 Europe/London] PHP Notice:  Use of undefined constant helyes - assumed 'helyes' in /home/soktamas/public_html/eredmeny_kod.php on line 104
+[16-May-2019 20:04:42 Europe/London] PHP Notice:  Use of undefined constant tablanev_mezo - assumed 'tablanev_mezo' in /home/soktamas/public_html/eredmeny_kod.php on line 113
+[16-May-2019 20:04:42 Europe/London] PHP Notice:  Undefined index: tablanev_mezo in /home/soktamas/public_html/eredmeny_kod.php on line 113
+[16-May-2019 20:04:42 Europe/London] PHP Notice:  Use of undefined constant nev_mezo - assumed 'nev_mezo' in /home/soktamas/public_html/eredmeny_kod.php on line 115
+[16-May-2019 20:04:42 Europe/London] PHP Notice:  Undefined index: nev_mezo in /home/soktamas/public_html/eredmeny_kod.php on line 115
+[16-May-2019 20:04:42 Europe/London] PHP Notice:  Constant DB_HOSZT already defined in /home/soktamas/public_html/beallitas.php on line 2
+[16-May-2019 20:04:42 Europe/London] PHP Notice:  Constant DB_FELH_NEV already defined in /home/soktamas/public_html/beallitas.php on line 3
+[16-May-2019 20:04:42 Europe/London] PHP Notice:  Constant DB_JELSZO already defined in /home/soktamas/public_html/beallitas.php on line 4
+[16-May-2019 20:04:42 Europe/London] PHP Notice:  Constant DB_NEV already defined in /home/soktamas/public_html/beallitas.php on line 5
+[16-May-2019 20:04:42 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/soktamas/public_html/eredmeny_lekerdezes_kezd_kod.php:6
+Stack trace:
+#0 /home/soktamas/public_html/eredmeny_kod.php(133): include()
+#1 /home/soktamas/public_html/eredmeny_keret.php(56): include('/home/soktamas/...')
+#2 {main}
+  thrown in /home/soktamas/public_html/eredmeny_lekerdezes_kezd_kod.php on line 6
+[16-May-2019 20:04:43 Europe/London] PHP Notice:  Use of undefined constant nev - assumed 'nev' in /home/soktamas/public_html/regisztracio_kod.php on line 2
+[16-May-2019 20:04:43 Europe/London] PHP Notice:  Undefined index: nev in /home/soktamas/public_html/regisztracio_kod.php on line 2
+[16-May-2019 20:04:43 Europe/London] PHP Notice:  Use of undefined constant jelszo - assumed 'jelszo' in /home/soktamas/public_html/regisztracio_kod.php on line 3
+[16-May-2019 20:04:43 Europe/London] PHP Notice:  Undefined index: jelszo in /home/soktamas/public_html/regisztracio_kod.php on line 3
+[16-May-2019 20:04:43 Europe/London] PHP Notice:  Use of undefined constant jelszo_conf - assumed 'jelszo_conf' in /home/soktamas/public_html/regisztracio_kod.php on line 4
+[16-May-2019 20:04:43 Europe/London] PHP Notice:  Undefined index: jelszo_conf in /home/soktamas/public_html/regisztracio_kod.php on line 4
+[16-May-2019 20:04:43 Europe/London] PHP Notice:  Use of undefined constant rendes_nev - assumed 'rendes_nev' in /home/soktamas/public_html/regisztracio_kod.php on line 5
+[16-May-2019 20:04:43 Europe/London] PHP Notice:  Undefined index: rendes_nev in /home/soktamas/public_html/regisztracio_kod.php on line 5
+[16-May-2019 20:04:43 Europe/London] PHP Notice:  Use of undefined constant email - assumed 'email' in /home/soktamas/public_html/regisztracio_kod.php on line 6
+[16-May-2019 20:04:43 Europe/London] PHP Notice:  Undefined index: email in /home/soktamas/public_html/regisztracio_kod.php on line 6
+[16-May-2019 20:04:44 Europe/London] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /home/soktamas/public_html/kezdo_oldal_szoveg.php on line 3
+[16-May-2019 20:04:45 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/soktamas/public_html/temavalasztas_gyakorlasra_kod.php:4
+Stack trace:
+#0 /home/soktamas/public_html/gyakorlas_kezd.php(57): include()
+#1 {main}
+  thrown in /home/soktamas/public_html/temavalasztas_gyakorlasra_kod.php on line 4
+[16-May-2019 20:04:48 Europe/London] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /home/soktamas/public_html/kezdo_oldal_szoveg.php on line 3
+[16-May-2019 20:04:49 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/soktamas/public_html/temavalasztas_gyakorlasra_kod.php:4
+Stack trace:
+#0 /home/soktamas/public_html/gyakorlas_kezd.php(57): include()
+#1 {main}
+  thrown in /home/soktamas/public_html/temavalasztas_gyakorlasra_kod.php on line 4
+[16-May-2019 20:04:50 Europe/London] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /home/soktamas/public_html/kezdo_oldal_szoveg.php on line 3
+[16-May-2019 20:04:51 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/soktamas/public_html/temavalasztas_gyakorlasra_kod.php:4
+Stack trace:
+#0 /home/soktamas/public_html/gyakorlas_kezd.php(57): include()
+#1 {main}
+  thrown in /home/soktamas/public_html/temavalasztas_gyakorlasra_kod.php on line 4
+[16-May-2019 20:04:52 Europe/London] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /home/soktamas/public_html/kezdo_oldal_szoveg.php on line 3
+[16-May-2019 20:11:20 Europe/London] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /home/soktamas/public_html/kezdo_oldal_szoveg.php on line 3
+[16-May-2019 20:11:24 Europe/London] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /home/soktamas/public_html/kezdo_oldal_szoveg.php on line 3
+[16-May-2019 20:11:25 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/soktamas/public_html/temavalasztas_gyakorlasra_kod.php:4
+Stack trace:
+#0 /home/soktamas/public_html/gyakorlas_kezd.php(57): include()
+#1 {main}
+  thrown in /home/soktamas/public_html/temavalasztas_gyakorlasra_kod.php on line 4
+[16-May-2019 20:11:26 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/soktamas/public_html/temavalasztas_szamonkeresre_kod.php:5
+Stack trace:
+#0 /home/soktamas/public_html/szamonkeres_kezd.php(57): include()
+#1 {main}
+  thrown in /home/soktamas/public_html/temavalasztas_szamonkeresre_kod.php on line 5
+[16-May-2019 20:11:28 Europe/London] PHP Notice:  Use of undefined constant Tema - assumed 'Tema' in /home/soktamas/public_html/eredmeny_kod.php on line 96
+[16-May-2019 20:11:28 Europe/London] PHP Notice:  Undefined index: Tema in /home/soktamas/public_html/eredmeny_kod.php on line 96
+[16-May-2019 20:11:28 Europe/London] PHP Notice:  Use of undefined constant kerdesek_szama - assumed 'kerdesek_szama' in /home/soktamas/public_html/eredmeny_kod.php on line 97
+[16-May-2019 20:11:28 Europe/London] PHP Notice:  Undefined index: kerdesek_szama in /home/soktamas/public_html/eredmeny_kod.php on line 97
+[16-May-2019 20:11:28 Europe/London] PHP Notice:  Use of undefined constant jo_valasz_szamlalo - assumed 'jo_valasz_szamlalo' in /home/soktamas/public_html/eredmeny_kod.php on line 98
+[16-May-2019 20:11:28 Europe/London] PHP Notice:  Undefined index: jo_valasz_szamlalo in /home/soktamas/public_html/eredmeny_kod.php on line 98
+[16-May-2019 20:11:28 Europe/London] PHP Notice:  Use of undefined constant tema_azon - assumed 'tema_azon' in /home/soktamas/public_html/eredmeny_kod.php on line 99
+[16-May-2019 20:11:28 Europe/London] PHP Notice:  Undefined index: tema_azon in /home/soktamas/public_html/eredmeny_kod.php on line 99
+[16-May-2019 20:11:28 Europe/London] PHP Notice:  Use of undefined constant kerdes_szam - assumed 'kerdes_szam' in /home/soktamas/public_html/eredmeny_kod.php on line 101
+[16-May-2019 20:11:28 Europe/London] PHP Notice:  Undefined index: kerdes_szam in /home/soktamas/public_html/eredmeny_kod.php on line 101
+[16-May-2019 20:11:28 Europe/London] PHP Notice:  Use of undefined constant tablanev_mezo - assumed 'tablanev_mezo' in /home/soktamas/public_html/eredmeny_kod.php on line 102
+[16-May-2019 20:11:28 Europe/London] PHP Notice:  Undefined index: tablanev_mezo in /home/soktamas/public_html/eredmeny_kod.php on line 102
+[16-May-2019 20:11:28 Europe/London] PHP Notice:  Use of undefined constant helyes - assumed 'helyes' in /home/soktamas/public_html/eredmeny_kod.php on line 104
+[16-May-2019 20:11:28 Europe/London] PHP Notice:  Use of undefined constant tablanev_mezo - assumed 'tablanev_mezo' in /home/soktamas/public_html/eredmeny_kod.php on line 113
+[16-May-2019 20:11:28 Europe/London] PHP Notice:  Undefined index: tablanev_mezo in /home/soktamas/public_html/eredmeny_kod.php on line 113
+[16-May-2019 20:11:28 Europe/London] PHP Notice:  Use of undefined constant nev_mezo - assumed 'nev_mezo' in /home/soktamas/public_html/eredmeny_kod.php on line 115
+[16-May-2019 20:11:28 Europe/London] PHP Notice:  Undefined index: nev_mezo in /home/soktamas/public_html/eredmeny_kod.php on line 115
+[16-May-2019 20:11:28 Europe/London] PHP Notice:  Constant DB_HOSZT already defined in /home/soktamas/public_html/beallitas.php on line 2
+[16-May-2019 20:11:28 Europe/London] PHP Notice:  Constant DB_FELH_NEV already defined in /home/soktamas/public_html/beallitas.php on line 3
+[16-May-2019 20:11:28 Europe/London] PHP Notice:  Constant DB_JELSZO already defined in /home/soktamas/public_html/beallitas.php on line 4
+[16-May-2019 20:11:28 Europe/London] PHP Notice:  Constant DB_NEV already defined in /home/soktamas/public_html/beallitas.php on line 5
+[16-May-2019 20:11:28 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/soktamas/public_html/eredmeny_lekerdezes_kezd_kod.php:6
+Stack trace:
+#0 /home/soktamas/public_html/eredmeny_kod.php(133): include()
+#1 /home/soktamas/public_html/eredmeny_keret.php(56): include('/home/soktamas/...')
+#2 {main}
+  thrown in /home/soktamas/public_html/eredmeny_lekerdezes_kezd_kod.php on line 6
+[16-May-2019 20:11:30 Europe/London] PHP Notice:  Use of undefined constant nev - assumed 'nev' in /home/soktamas/public_html/regisztracio_kod.php on line 2
+[16-May-2019 20:11:30 Europe/London] PHP Notice:  Undefined index: nev in /home/soktamas/public_html/regisztracio_kod.php on line 2
+[16-May-2019 20:11:30 Europe/London] PHP Notice:  Use of undefined constant jelszo - assumed 'jelszo' in /home/soktamas/public_html/regisztracio_kod.php on line 3
+[16-May-2019 20:11:30 Europe/London] PHP Notice:  Undefined index: jelszo in /home/soktamas/public_html/regisztracio_kod.php on line 3
+[16-May-2019 20:11:30 Europe/London] PHP Notice:  Use of undefined constant jelszo_conf - assumed 'jelszo_conf' in /home/soktamas/public_html/regisztracio_kod.php on line 4
+[16-May-2019 20:11:30 Europe/London] PHP Notice:  Undefined index: jelszo_conf in /home/soktamas/public_html/regisztracio_kod.php on line 4
+[16-May-2019 20:11:30 Europe/London] PHP Notice:  Use of undefined constant rendes_nev - assumed 'rendes_nev' in /home/soktamas/public_html/regisztracio_kod.php on line 5
+[16-May-2019 20:11:30 Europe/London] PHP Notice:  Undefined index: rendes_nev in /home/soktamas/public_html/regisztracio_kod.php on line 5
+[16-May-2019 20:11:30 Europe/London] PHP Notice:  Use of undefined constant email - assumed 'email' in /home/soktamas/public_html/regisztracio_kod.php on line 6
+[16-May-2019 20:11:30 Europe/London] PHP Notice:  Undefined index: email in /home/soktamas/public_html/regisztracio_kod.php on line 6
+[16-May-2019 20:11:33 Europe/London] PHP Notice:  Use of undefined constant Tema - assumed 'Tema' in /home/soktamas/public_html/eredmeny_kod.php on line 96
+[16-May-2019 20:11:33 Europe/London] PHP Notice:  Undefined index: Tema in /home/soktamas/public_html/eredmeny_kod.php on line 96
+[16-May-2019 20:11:33 Europe/London] PHP Notice:  Use of undefined constant kerdesek_szama - assumed 'kerdesek_szama' in /home/soktamas/public_html/eredmeny_kod.php on line 97
+[16-May-2019 20:11:33 Europe/London] PHP Notice:  Undefined index: kerdesek_szama in /home/soktamas/public_html/eredmeny_kod.php on line 97
+[16-May-2019 20:11:33 Europe/London] PHP Notice:  Use of undefined constant jo_valasz_szamlalo - assumed 'jo_valasz_szamlalo' in /home/soktamas/public_html/eredmeny_kod.php on line 98
+[16-May-2019 20:11:33 Europe/London] PHP Notice:  Undefined index: jo_valasz_szamlalo in /home/soktamas/public_html/eredmeny_kod.php on line 98
+[16-May-2019 20:11:33 Europe/London] PHP Notice:  Use of undefined constant tema_azon - assumed 'tema_azon' in /home/soktamas/public_html/eredmeny_kod.php on line 99
+[16-May-2019 20:11:33 Europe/London] PHP Notice:  Undefined index: tema_azon in /home/soktamas/public_html/eredmeny_kod.php on line 99
+[16-May-2019 20:11:33 Europe/London] PHP Notice:  Use of undefined constant kerdes_szam - assumed 'kerdes_szam' in /home/soktamas/public_html/eredmeny_kod.php on line 101
+[16-May-2019 20:11:33 Europe/London] PHP Notice:  Undefined index: kerdes_szam in /home/soktamas/public_html/eredmeny_kod.php on line 101
+[16-May-2019 20:11:33 Europe/London] PHP Notice:  Use of undefined constant tablanev_mezo - assumed 'tablanev_mezo' in /home/soktamas/public_html/eredmeny_kod.php on line 102
+[16-May-2019 20:11:33 Europe/London] PHP Notice:  Undefined index: tablanev_mezo in /home/soktamas/public_html/eredmeny_kod.php on line 102
+[16-May-2019 20:11:33 Europe/London] PHP Notice:  Use of undefined constant helyes - assumed 'helyes' in /home/soktamas/public_html/eredmeny_kod.php on line 104
+[16-May-2019 20:11:33 Europe/London] PHP Notice:  Use of undefined constant tablanev_mezo - assumed 'tablanev_mezo' in /home/soktamas/public_html/eredmeny_kod.php on line 113
+[16-May-2019 20:11:33 Europe/London] PHP Notice:  Undefined index: tablanev_mezo in /home/soktamas/public_html/eredmeny_kod.php on line 113
+[16-May-2019 20:11:33 Europe/London] PHP Notice:  Use of undefined constant nev_mezo - assumed 'nev_mezo' in /home/soktamas/public_html/eredmeny_kod.php on line 115
+[16-May-2019 20:11:33 Europe/London] PHP Notice:  Undefined index: nev_mezo in /home/soktamas/public_html/eredmeny_kod.php on line 115
+[16-May-2019 20:11:33 Europe/London] PHP Notice:  Constant DB_HOSZT already defined in /home/soktamas/public_html/beallitas.php on line 2
+[16-May-2019 20:11:33 Europe/London] PHP Notice:  Constant DB_FELH_NEV already defined in /home/soktamas/public_html/beallitas.php on line 3
+[16-May-2019 20:11:33 Europe/London] PHP Notice:  Constant DB_JELSZO already defined in /home/soktamas/public_html/beallitas.php on line 4
+[16-May-2019 20:11:33 Europe/London] PHP Notice:  Constant DB_NEV already defined in /home/soktamas/public_html/beallitas.php on line 5
+[16-May-2019 20:11:33 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/soktamas/public_html/eredmeny_lekerdezes_kezd_kod.php:6
+Stack trace:
+#0 /home/soktamas/public_html/eredmeny_kod.php(133): include()
+#1 /home/soktamas/public_html/eredmeny_keret.php(56): include('/home/soktamas/...')
+#2 {main}
+  thrown in /home/soktamas/public_html/eredmeny_lekerdezes_kezd_kod.php on line 6
+[16-May-2019 20:11:35 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/soktamas/public_html/temavalasztas_szamonkeresre_kod.php:5
+Stack trace:
+#0 /home/soktamas/public_html/szamonkeres_kezd.php(57): include()
+#1 {main}
+  thrown in /home/soktamas/public_html/temavalasztas_szamonkeresre_kod.php on line 5
+[16-May-2019 20:11:36 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/soktamas/public_html/temavalasztas_gyakorlasra_kod.php:4
+Stack trace:
+#0 /home/soktamas/public_html/gyakorlas_kezd.php(57): include()
+#1 {main}
+  thrown in /home/soktamas/public_html/temavalasztas_gyakorlasra_kod.php on line 4
+[16-May-2019 20:11:37 Europe/London] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /home/soktamas/public_html/kezdo_oldal_szoveg.php on line 3
+[16-May-2019 20:12:28 Europe/London] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /home/soktamas/public_html/kezdo_oldal_szoveg.php on line 3
+[16-May-2019 20:12:30 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/soktamas/public_html/temavalasztas_gyakorlasra_kod.php:4
+Stack trace:
+#0 /home/soktamas/public_html/gyakorlas_kezd.php(57): include()
+#1 {main}
+  thrown in /home/soktamas/public_html/temavalasztas_gyakorlasra_kod.php on line 4
+[16-May-2019 20:12:31 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/soktamas/public_html/temavalasztas_szamonkeresre_kod.php:5
+Stack trace:
+#0 /home/soktamas/public_html/szamonkeres_kezd.php(57): include()
+#1 {main}
+  thrown in /home/soktamas/public_html/temavalasztas_szamonkeresre_kod.php on line 5
+[16-May-2019 20:12:32 Europe/London] PHP Notice:  Use of undefined constant Tema - assumed 'Tema' in /home/soktamas/public_html/eredmeny_kod.php on line 96
+[16-May-2019 20:12:32 Europe/London] PHP Notice:  Undefined index: Tema in /home/soktamas/public_html/eredmeny_kod.php on line 96
+[16-May-2019 20:12:32 Europe/London] PHP Notice:  Use of undefined constant kerdesek_szama - assumed 'kerdesek_szama' in /home/soktamas/public_html/eredmeny_kod.php on line 97
+[16-May-2019 20:12:32 Europe/London] PHP Notice:  Undefined index: kerdesek_szama in /home/soktamas/public_html/eredmeny_kod.php on line 97
+[16-May-2019 20:12:32 Europe/London] PHP Notice:  Use of undefined constant jo_valasz_szamlalo - assumed 'jo_valasz_szamlalo' in /home/soktamas/public_html/eredmeny_kod.php on line 98
+[16-May-2019 20:12:32 Europe/London] PHP Notice:  Undefined index: jo_valasz_szamlalo in /home/soktamas/public_html/eredmeny_kod.php on line 98
+[16-May-2019 20:12:32 Europe/London] PHP Notice:  Use of undefined constant tema_azon - assumed 'tema_azon' in /home/soktamas/public_html/eredmeny_kod.php on line 99
+[16-May-2019 20:12:32 Europe/London] PHP Notice:  Undefined index: tema_azon in /home/soktamas/public_html/eredmeny_kod.php on line 99
+[16-May-2019 20:12:32 Europe/London] PHP Notice:  Use of undefined constant kerdes_szam - assumed 'kerdes_szam' in /home/soktamas/public_html/eredmeny_kod.php on line 101
+[16-May-2019 20:12:32 Europe/London] PHP Notice:  Undefined index: kerdes_szam in /home/soktamas/public_html/eredmeny_kod.php on line 101
+[16-May-2019 20:12:32 Europe/London] PHP Notice:  Use of undefined constant tablanev_mezo - assumed 'tablanev_mezo' in /home/soktamas/public_html/eredmeny_kod.php on line 102
+[16-May-2019 20:12:32 Europe/London] PHP Notice:  Undefined index: tablanev_mezo in /home/soktamas/public_html/eredmeny_kod.php on line 102
+[16-May-2019 20:12:32 Europe/London] PHP Notice:  Use of undefined constant helyes - assumed 'helyes' in /home/soktamas/public_html/eredmeny_kod.php on line 104
+[16-May-2019 20:12:32 Europe/London] PHP Notice:  Use of undefined constant tablanev_mezo - assumed 'tablanev_mezo' in /home/soktamas/public_html/eredmeny_kod.php on line 113
+[16-May-2019 20:12:32 Europe/London] PHP Notice:  Undefined index: tablanev_mezo in /home/soktamas/public_html/eredmeny_kod.php on line 113
+[16-May-2019 20:12:32 Europe/London] PHP Notice:  Use of undefined constant nev_mezo - assumed 'nev_mezo' in /home/soktamas/public_html/eredmeny_kod.php on line 115
+[16-May-2019 20:12:32 Europe/London] PHP Notice:  Undefined index: nev_mezo in /home/soktamas/public_html/eredmeny_kod.php on line 115
+[16-May-2019 20:12:32 Europe/London] PHP Notice:  Constant DB_HOSZT already defined in /home/soktamas/public_html/beallitas.php on line 2
+[16-May-2019 20:12:32 Europe/London] PHP Notice:  Constant DB_FELH_NEV already defined in /home/soktamas/public_html/beallitas.php on line 3
+[16-May-2019 20:12:32 Europe/London] PHP Notice:  Constant DB_JELSZO already defined in /home/soktamas/public_html/beallitas.php on line 4
+[16-May-2019 20:12:32 Europe/London] PHP Notice:  Constant DB_NEV already defined in /home/soktamas/public_html/beallitas.php on line 5
+[16-May-2019 20:12:32 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/soktamas/public_html/eredmeny_lekerdezes_kezd_kod.php:6
+Stack trace:
+#0 /home/soktamas/public_html/eredmeny_kod.php(133): include()
+#1 /home/soktamas/public_html/eredmeny_keret.php(56): include('/home/soktamas/...')
+#2 {main}
+  thrown in /home/soktamas/public_html/eredmeny_lekerdezes_kezd_kod.php on line 6
+[16-May-2019 20:12:33 Europe/London] PHP Notice:  Use of undefined constant nev - assumed 'nev' in /home/soktamas/public_html/regisztracio_kod.php on line 2
+[16-May-2019 20:12:33 Europe/London] PHP Notice:  Undefined index: nev in /home/soktamas/public_html/regisztracio_kod.php on line 2
+[16-May-2019 20:12:33 Europe/London] PHP Notice:  Use of undefined constant jelszo - assumed 'jelszo' in /home/soktamas/public_html/regisztracio_kod.php on line 3
+[16-May-2019 20:12:33 Europe/London] PHP Notice:  Undefined index: jelszo in /home/soktamas/public_html/regisztracio_kod.php on line 3
+[16-May-2019 20:12:33 Europe/London] PHP Notice:  Use of undefined constant jelszo_conf - assumed 'jelszo_conf' in /home/soktamas/public_html/regisztracio_kod.php on line 4
+[16-May-2019 20:12:33 Europe/London] PHP Notice:  Undefined index: jelszo_conf in /home/soktamas/public_html/regisztracio_kod.php on line 4
+[16-May-2019 20:12:33 Europe/London] PHP Notice:  Use of undefined constant rendes_nev - assumed 'rendes_nev' in /home/soktamas/public_html/regisztracio_kod.php on line 5
+[16-May-2019 20:12:33 Europe/London] PHP Notice:  Undefined index: rendes_nev in /home/soktamas/public_html/regisztracio_kod.php on line 5
+[16-May-2019 20:12:33 Europe/London] PHP Notice:  Use of undefined constant email - assumed 'email' in /home/soktamas/public_html/regisztracio_kod.php on line 6
+[16-May-2019 20:12:33 Europe/London] PHP Notice:  Undefined index: email in /home/soktamas/public_html/regisztracio_kod.php on line 6
+[16-May-2019 20:12:34 Europe/London] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /home/soktamas/public_html/kezdo_oldal_szoveg.php on line 3
+[16-May-2019 20:23:12 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/soktamas/public_html/temavalasztas_gyakorlasra_kod.php:4
+Stack trace:
+#0 /home/soktamas/public_html/gyakorlas_kezd.php(57): include()
+#1 {main}
+  thrown in /home/soktamas/public_html/temavalasztas_gyakorlasra_kod.php on line 4
+[16-May-2019 20:23:13 Europe/London] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /home/soktamas/public_html/kezdo_oldal_szoveg.php on line 3
+[16-May-2019 20:23:15 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/soktamas/public_html/temavalasztas_gyakorlasra_kod.php:4
+Stack trace:
+#0 /home/soktamas/public_html/gyakorlas_kezd.php(57): include()
+#1 {main}
+  thrown in /home/soktamas/public_html/temavalasztas_gyakorlasra_kod.php on line 4
+[16-May-2019 20:23:39 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/soktamas/public_html/temavalasztas_gyakorlasra_kod.php:4
+Stack trace:
+#0 /home/soktamas/public_html/gyakorlas_kezd.php(57): include()
+#1 {main}
+  thrown in /home/soktamas/public_html/temavalasztas_gyakorlasra_kod.php on line 4
+[16-May-2019 20:23:42 Europe/London] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /home/soktamas/public_html/kezdo_oldal_szoveg.php on line 3
+[16-May-2019 20:23:44 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/soktamas/public_html/temavalasztas_gyakorlasra_kod.php:4
+Stack trace:
+#0 /home/soktamas/public_html/gyakorlas_kezd.php(57): include()
+#1 {main}
+  thrown in /home/soktamas/public_html/temavalasztas_gyakorlasra_kod.php on line 4
+[16-May-2019 20:23:45 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/soktamas/public_html/temavalasztas_szamonkeresre_kod.php:5
+Stack trace:
+#0 /home/soktamas/public_html/szamonkeres_kezd.php(57): include()
+#1 {main}
+  thrown in /home/soktamas/public_html/temavalasztas_szamonkeresre_kod.php on line 5
+[16-May-2019 20:23:46 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/soktamas/public_html/temavalasztas_gyakorlasra_kod.php:4
+Stack trace:
+#0 /home/soktamas/public_html/gyakorlas_kezd.php(57): include()
+#1 {main}
+  thrown in /home/soktamas/public_html/temavalasztas_gyakorlasra_kod.php on line 4
+[16-May-2019 20:26:26 Europe/London] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /home/soktamas/public_html/kezdo_oldal_szoveg.php on line 3
+[16-May-2019 20:26:28 Europe/London] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /home/soktamas/public_html/kezdo_oldal_szoveg.php on line 3
+[16-May-2019 20:26:33 Europe/London] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /home/soktamas/public_html/kezdo_oldal_szoveg.php on line 3
+[16-May-2019 20:26:35 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/soktamas/public_html/temavalasztas_gyakorlasra_kod.php:4
+Stack trace:
+#0 /home/soktamas/public_html/gyakorlas_kezd.php(57): include()
+#1 {main}
+  thrown in /home/soktamas/public_html/temavalasztas_gyakorlasra_kod.php on line 4
+[16-May-2019 20:26:36 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/soktamas/public_html/temavalasztas_szamonkeresre_kod.php:5
+Stack trace:
+#0 /home/soktamas/public_html/szamonkeres_kezd.php(57): include()
+#1 {main}
+  thrown in /home/soktamas/public_html/temavalasztas_szamonkeresre_kod.php on line 5
+[16-May-2019 20:26:38 Europe/London] PHP Notice:  Use of undefined constant Tema - assumed 'Tema' in /home/soktamas/public_html/eredmeny_kod.php on line 96
+[16-May-2019 20:26:38 Europe/London] PHP Notice:  Undefined index: Tema in /home/soktamas/public_html/eredmeny_kod.php on line 96
+[16-May-2019 20:26:38 Europe/London] PHP Notice:  Use of undefined constant kerdesek_szama - assumed 'kerdesek_szama' in /home/soktamas/public_html/eredmeny_kod.php on line 97
+[16-May-2019 20:26:38 Europe/London] PHP Notice:  Undefined index: kerdesek_szama in /home/soktamas/public_html/eredmeny_kod.php on line 97
+[16-May-2019 20:26:38 Europe/London] PHP Notice:  Use of undefined constant jo_valasz_szamlalo - assumed 'jo_valasz_szamlalo' in /home/soktamas/public_html/eredmeny_kod.php on line 98
+[16-May-2019 20:26:38 Europe/London] PHP Notice:  Undefined index: jo_valasz_szamlalo in /home/soktamas/public_html/eredmeny_kod.php on line 98
+[16-May-2019 20:26:38 Europe/London] PHP Notice:  Use of undefined constant tema_azon - assumed 'tema_azon' in /home/soktamas/public_html/eredmeny_kod.php on line 99
+[16-May-2019 20:26:38 Europe/London] PHP Notice:  Undefined index: tema_azon in /home/soktamas/public_html/eredmeny_kod.php on line 99
+[16-May-2019 20:26:38 Europe/London] PHP Notice:  Use of undefined constant kerdes_szam - assumed 'kerdes_szam' in /home/soktamas/public_html/eredmeny_kod.php on line 101
+[16-May-2019 20:26:38 Europe/London] PHP Notice:  Undefined index: kerdes_szam in /home/soktamas/public_html/eredmeny_kod.php on line 101
+[16-May-2019 20:26:38 Europe/London] PHP Notice:  Use of undefined constant tablanev_mezo - assumed 'tablanev_mezo' in /home/soktamas/public_html/eredmeny_kod.php on line 102
+[16-May-2019 20:26:38 Europe/London] PHP Notice:  Undefined index: tablanev_mezo in /home/soktamas/public_html/eredmeny_kod.php on line 102
+[16-May-2019 20:26:38 Europe/London] PHP Notice:  Use of undefined constant helyes - assumed 'helyes' in /home/soktamas/public_html/eredmeny_kod.php on line 104
+[16-May-2019 20:26:38 Europe/London] PHP Notice:  Use of undefined constant tablanev_mezo - assumed 'tablanev_mezo' in /home/soktamas/public_html/eredmeny_kod.php on line 113
+[16-May-2019 20:26:38 Europe/London] PHP Notice:  Undefined index: tablanev_mezo in /home/soktamas/public_html/eredmeny_kod.php on line 113
+[16-May-2019 20:26:38 Europe/London] PHP Notice:  Use of undefined constant nev_mezo - assumed 'nev_mezo' in /home/soktamas/public_html/eredmeny_kod.php on line 115
+[16-May-2019 20:26:38 Europe/London] PHP Notice:  Undefined index: nev_mezo in /home/soktamas/public_html/eredmeny_kod.php on line 115
+[16-May-2019 20:26:38 Europe/London] PHP Notice:  Constant DB_HOSZT already defined in /home/soktamas/public_html/beallitas.php on line 2
+[16-May-2019 20:26:38 Europe/London] PHP Notice:  Constant DB_FELH_NEV already defined in /home/soktamas/public_html/beallitas.php on line 3
+[16-May-2019 20:26:38 Europe/London] PHP Notice:  Constant DB_JELSZO already defined in /home/soktamas/public_html/beallitas.php on line 4
+[16-May-2019 20:26:38 Europe/London] PHP Notice:  Constant DB_NEV already defined in /home/soktamas/public_html/beallitas.php on line 5
+[16-May-2019 20:26:38 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/soktamas/public_html/eredmeny_lekerdezes_kezd_kod.php:6
+Stack trace:
+#0 /home/soktamas/public_html/eredmeny_kod.php(133): include()
+#1 /home/soktamas/public_html/eredmeny_keret.php(56): include('/home/soktamas/...')
+#2 {main}
+  thrown in /home/soktamas/public_html/eredmeny_lekerdezes_kezd_kod.php on line 6
+[16-May-2019 20:26:38 Europe/London] PHP Notice:  Use of undefined constant nev - assumed 'nev' in /home/soktamas/public_html/regisztracio_kod.php on line 2
+[16-May-2019 20:26:38 Europe/London] PHP Notice:  Undefined index: nev in /home/soktamas/public_html/regisztracio_kod.php on line 2
+[16-May-2019 20:26:38 Europe/London] PHP Notice:  Use of undefined constant jelszo - assumed 'jelszo' in /home/soktamas/public_html/regisztracio_kod.php on line 3
+[16-May-2019 20:26:38 Europe/London] PHP Notice:  Undefined index: jelszo in /home/soktamas/public_html/regisztracio_kod.php on line 3
+[16-May-2019 20:26:38 Europe/London] PHP Notice:  Use of undefined constant jelszo_conf - assumed 'jelszo_conf' in /home/soktamas/public_html/regisztracio_kod.php on line 4
+[16-May-2019 20:26:38 Europe/London] PHP Notice:  Undefined index: jelszo_conf in /home/soktamas/public_html/regisztracio_kod.php on line 4
+[16-May-2019 20:26:38 Europe/London] PHP Notice:  Use of undefined constant rendes_nev - assumed 'rendes_nev' in /home/soktamas/public_html/regisztracio_kod.php on line 5
+[16-May-2019 20:26:38 Europe/London] PHP Notice:  Undefined index: rendes_nev in /home/soktamas/public_html/regisztracio_kod.php on line 5
+[16-May-2019 20:26:38 Europe/London] PHP Notice:  Use of undefined constant email - assumed 'email' in /home/soktamas/public_html/regisztracio_kod.php on line 6
+[16-May-2019 20:26:38 Europe/London] PHP Notice:  Undefined index: email in /home/soktamas/public_html/regisztracio_kod.php on line 6
+[16-May-2019 20:26:39 Europe/London] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /home/soktamas/public_html/kezdo_oldal_szoveg.php on line 3
+[16-May-2019 21:53:57 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/soktamas/public_html/temavalasztas_szamonkeresre_kod.php:5
+Stack trace:
+#0 /home/soktamas/public_html/szamonkeres_kezd.php(57): include()
+#1 {main}
+  thrown in /home/soktamas/public_html/temavalasztas_szamonkeresre_kod.php on line 5
+[16-May-2019 21:59:52 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/soktamas/public_html/temavalasztas_szamonkeresre_kod.php:5
+Stack trace:
+#0 /home/soktamas/public_html/szamonkeres_kezd.php(57): include()
+#1 {main}
+  thrown in /home/soktamas/public_html/temavalasztas_szamonkeresre_kod.php on line 5
+[16-May-2019 21:59:54 Europe/London] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /home/soktamas/public_html/kezdo_oldal_szoveg.php on line 3
+[16-May-2019 21:59:55 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/soktamas/public_html/temavalasztas_gyakorlasra_kod.php:4
+Stack trace:
+#0 /home/soktamas/public_html/gyakorlas_kezd.php(57): include()
+#1 {main}
+  thrown in /home/soktamas/public_html/temavalasztas_gyakorlasra_kod.php on line 4
+[16-May-2019 21:59:56 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/soktamas/public_html/temavalasztas_szamonkeresre_kod.php:5
+Stack trace:
+#0 /home/soktamas/public_html/szamonkeres_kezd.php(57): include()
+#1 {main}
+  thrown in /home/soktamas/public_html/temavalasztas_szamonkeresre_kod.php on line 5
+[16-May-2019 21:59:58 Europe/London] PHP Notice:  Use of undefined constant Tema - assumed 'Tema' in /home/soktamas/public_html/eredmeny_kod.php on line 96
+[16-May-2019 21:59:58 Europe/London] PHP Notice:  Undefined index: Tema in /home/soktamas/public_html/eredmeny_kod.php on line 96
+[16-May-2019 21:59:58 Europe/London] PHP Notice:  Use of undefined constant kerdesek_szama - assumed 'kerdesek_szama' in /home/soktamas/public_html/eredmeny_kod.php on line 97
+[16-May-2019 21:59:58 Europe/London] PHP Notice:  Undefined index: kerdesek_szama in /home/soktamas/public_html/eredmeny_kod.php on line 97
+[16-May-2019 21:59:58 Europe/London] PHP Notice:  Use of undefined constant jo_valasz_szamlalo - assumed 'jo_valasz_szamlalo' in /home/soktamas/public_html/eredmeny_kod.php on line 98
+[16-May-2019 21:59:58 Europe/London] PHP Notice:  Undefined index: jo_valasz_szamlalo in /home/soktamas/public_html/eredmeny_kod.php on line 98
+[16-May-2019 21:59:58 Europe/London] PHP Notice:  Use of undefined constant tema_azon - assumed 'tema_azon' in /home/soktamas/public_html/eredmeny_kod.php on line 99
+[16-May-2019 21:59:58 Europe/London] PHP Notice:  Undefined index: tema_azon in /home/soktamas/public_html/eredmeny_kod.php on line 99
+[16-May-2019 21:59:58 Europe/London] PHP Notice:  Use of undefined constant kerdes_szam - assumed 'kerdes_szam' in /home/soktamas/public_html/eredmeny_kod.php on line 101
+[16-May-2019 21:59:58 Europe/London] PHP Notice:  Undefined index: kerdes_szam in /home/soktamas/public_html/eredmeny_kod.php on line 101
+[16-May-2019 21:59:58 Europe/London] PHP Notice:  Use of undefined constant tablanev_mezo - assumed 'tablanev_mezo' in /home/soktamas/public_html/eredmeny_kod.php on line 102
+[16-May-2019 21:59:58 Europe/London] PHP Notice:  Undefined index: tablanev_mezo in /home/soktamas/public_html/eredmeny_kod.php on line 102
+[16-May-2019 21:59:58 Europe/London] PHP Notice:  Use of undefined constant helyes - assumed 'helyes' in /home/soktamas/public_html/eredmeny_kod.php on line 104
+[16-May-2019 21:59:58 Europe/London] PHP Notice:  Use of undefined constant tablanev_mezo - assumed 'tablanev_mezo' in /home/soktamas/public_html/eredmeny_kod.php on line 113
+[16-May-2019 21:59:58 Europe/London] PHP Notice:  Undefined index: tablanev_mezo in /home/soktamas/public_html/eredmeny_kod.php on line 113
+[16-May-2019 21:59:58 Europe/London] PHP Notice:  Use of undefined constant nev_mezo - assumed 'nev_mezo' in /home/soktamas/public_html/eredmeny_kod.php on line 115
+[16-May-2019 21:59:58 Europe/London] PHP Notice:  Undefined index: nev_mezo in /home/soktamas/public_html/eredmeny_kod.php on line 115
+[16-May-2019 21:59:58 Europe/London] PHP Notice:  Constant DB_HOSZT already defined in /home/soktamas/public_html/beallitas.php on line 2
+[16-May-2019 21:59:58 Europe/London] PHP Notice:  Constant DB_FELH_NEV already defined in /home/soktamas/public_html/beallitas.php on line 3
+[16-May-2019 21:59:58 Europe/London] PHP Notice:  Constant DB_JELSZO already defined in /home/soktamas/public_html/beallitas.php on line 4
+[16-May-2019 21:59:58 Europe/London] PHP Notice:  Constant DB_NEV already defined in /home/soktamas/public_html/beallitas.php on line 5
+[16-May-2019 21:59:58 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/soktamas/public_html/eredmeny_lekerdezes_kezd_kod.php:6
+Stack trace:
+#0 /home/soktamas/public_html/eredmeny_kod.php(133): include()
+#1 /home/soktamas/public_html/eredmeny_keret.php(56): include('/home/soktamas/...')
+#2 {main}
+  thrown in /home/soktamas/public_html/eredmeny_lekerdezes_kezd_kod.php on line 6
+[16-May-2019 22:00:00 Europe/London] PHP Notice:  Use of undefined constant nev - assumed 'nev' in /home/soktamas/public_html/regisztracio_kod.php on line 2
+[16-May-2019 22:00:00 Europe/London] PHP Notice:  Undefined index: nev in /home/soktamas/public_html/regisztracio_kod.php on line 2
+[16-May-2019 22:00:00 Europe/London] PHP Notice:  Use of undefined constant jelszo - assumed 'jelszo' in /home/soktamas/public_html/regisztracio_kod.php on line 3
+[16-May-2019 22:00:00 Europe/London] PHP Notice:  Undefined index: jelszo in /home/soktamas/public_html/regisztracio_kod.php on line 3
+[16-May-2019 22:00:00 Europe/London] PHP Notice:  Use of undefined constant jelszo_conf - assumed 'jelszo_conf' in /home/soktamas/public_html/regisztracio_kod.php on line 4
+[16-May-2019 22:00:00 Europe/London] PHP Notice:  Undefined index: jelszo_conf in /home/soktamas/public_html/regisztracio_kod.php on line 4
+[16-May-2019 22:00:00 Europe/London] PHP Notice:  Use of undefined constant rendes_nev - assumed 'rendes_nev' in /home/soktamas/public_html/regisztracio_kod.php on line 5
+[16-May-2019 22:00:00 Europe/London] PHP Notice:  Undefined index: rendes_nev in /home/soktamas/public_html/regisztracio_kod.php on line 5
+[16-May-2019 22:00:00 Europe/London] PHP Notice:  Use of undefined constant email - assumed 'email' in /home/soktamas/public_html/regisztracio_kod.php on line 6
+[16-May-2019 22:00:00 Europe/London] PHP Notice:  Undefined index: email in /home/soktamas/public_html/regisztracio_kod.php on line 6
+[16-May-2019 22:50:16 Europe/London] PHP Notice:  Use of undefined constant nev - assumed 'nev' in /home/soktamas/public_html/regisztracio_kod.php on line 2
+[16-May-2019 22:50:16 Europe/London] PHP Notice:  Undefined index: nev in /home/soktamas/public_html/regisztracio_kod.php on line 2
+[16-May-2019 22:50:16 Europe/London] PHP Notice:  Use of undefined constant jelszo - assumed 'jelszo' in /home/soktamas/public_html/regisztracio_kod.php on line 3
+[16-May-2019 22:50:16 Europe/London] PHP Notice:  Undefined index: jelszo in /home/soktamas/public_html/regisztracio_kod.php on line 3
+[16-May-2019 22:50:16 Europe/London] PHP Notice:  Use of undefined constant jelszo_conf - assumed 'jelszo_conf' in /home/soktamas/public_html/regisztracio_kod.php on line 4
+[16-May-2019 22:50:16 Europe/London] PHP Notice:  Undefined index: jelszo_conf in /home/soktamas/public_html/regisztracio_kod.php on line 4
+[16-May-2019 22:50:16 Europe/London] PHP Notice:  Use of undefined constant rendes_nev - assumed 'rendes_nev' in /home/soktamas/public_html/regisztracio_kod.php on line 5
+[16-May-2019 22:50:16 Europe/London] PHP Notice:  Undefined index: rendes_nev in /home/soktamas/public_html/regisztracio_kod.php on line 5
+[16-May-2019 22:50:16 Europe/London] PHP Notice:  Use of undefined constant email - assumed 'email' in /home/soktamas/public_html/regisztracio_kod.php on line 6
+[16-May-2019 22:50:16 Europe/London] PHP Notice:  Undefined index: email in /home/soktamas/public_html/regisztracio_kod.php on line 6
+[16-May-2019 22:52:15 Europe/London] PHP Notice:  Use of undefined constant nev - assumed 'nev' in /home/soktamas/public_html/regisztracio_kod.php on line 2
+[16-May-2019 22:52:15 Europe/London] PHP Notice:  Undefined index: nev in /home/soktamas/public_html/regisztracio_kod.php on line 2
+[16-May-2019 22:52:15 Europe/London] PHP Notice:  Use of undefined constant jelszo - assumed 'jelszo' in /home/soktamas/public_html/regisztracio_kod.php on line 3
+[16-May-2019 22:52:15 Europe/London] PHP Notice:  Undefined index: jelszo in /home/soktamas/public_html/regisztracio_kod.php on line 3
+[16-May-2019 22:52:15 Europe/London] PHP Notice:  Use of undefined constant jelszo_conf - assumed 'jelszo_conf' in /home/soktamas/public_html/regisztracio_kod.php on line 4
+[16-May-2019 22:52:15 Europe/London] PHP Notice:  Undefined index: jelszo_conf in /home/soktamas/public_html/regisztracio_kod.php on line 4
+[16-May-2019 22:52:15 Europe/London] PHP Notice:  Use of undefined constant rendes_nev - assumed 'rendes_nev' in /home/soktamas/public_html/regisztracio_kod.php on line 5
+[16-May-2019 22:52:15 Europe/London] PHP Notice:  Undefined index: rendes_nev in /home/soktamas/public_html/regisztracio_kod.php on line 5
+[16-May-2019 22:52:15 Europe/London] PHP Notice:  Use of undefined constant email - assumed 'email' in /home/soktamas/public_html/regisztracio_kod.php on line 6
+[16-May-2019 22:52:15 Europe/London] PHP Notice:  Undefined index: email in /home/soktamas/public_html/regisztracio_kod.php on line 6
+[16-May-2019 22:52:19 Europe/London] PHP Notice:  Use of undefined constant nev - assumed 'nev' in /home/soktamas/public_html/regisztracio_kod.php on line 2
+[16-May-2019 22:52:19 Europe/London] PHP Notice:  Undefined index: nev in /home/soktamas/public_html/regisztracio_kod.php on line 2
+[16-May-2019 22:52:19 Europe/London] PHP Notice:  Use of undefined constant jelszo - assumed 'jelszo' in /home/soktamas/public_html/regisztracio_kod.php on line 3
+[16-May-2019 22:52:19 Europe/London] PHP Notice:  Undefined index: jelszo in /home/soktamas/public_html/regisztracio_kod.php on line 3
+[16-May-2019 22:52:19 Europe/London] PHP Notice:  Use of undefined constant jelszo_conf - assumed 'jelszo_conf' in /home/soktamas/public_html/regisztracio_kod.php on line 4
+[16-May-2019 22:52:19 Europe/London] PHP Notice:  Undefined index: jelszo_conf in /home/soktamas/public_html/regisztracio_kod.php on line 4
+[16-May-2019 22:52:19 Europe/London] PHP Notice:  Use of undefined constant rendes_nev - assumed 'rendes_nev' in /home/soktamas/public_html/regisztracio_kod.php on line 5
+[16-May-2019 22:52:19 Europe/London] PHP Notice:  Undefined index: rendes_nev in /home/soktamas/public_html/regisztracio_kod.php on line 5
+[16-May-2019 22:52:19 Europe/London] PHP Notice:  Use of undefined constant email - assumed 'email' in /home/soktamas/public_html/regisztracio_kod.php on line 6
+[16-May-2019 22:52:19 Europe/London] PHP Notice:  Undefined index: email in /home/soktamas/public_html/regisztracio_kod.php on line 6
+[16-May-2019 22:52:20 Europe/London] PHP Notice:  Use of undefined constant nev - assumed 'nev' in /home/soktamas/public_html/regisztracio_kod.php on line 2
+[16-May-2019 22:52:20 Europe/London] PHP Notice:  Undefined index: nev in /home/soktamas/public_html/regisztracio_kod.php on line 2
+[16-May-2019 22:52:20 Europe/London] PHP Notice:  Use of undefined constant jelszo - assumed 'jelszo' in /home/soktamas/public_html/regisztracio_kod.php on line 3
+[16-May-2019 22:52:20 Europe/London] PHP Notice:  Undefined index: jelszo in /home/soktamas/public_html/regisztracio_kod.php on line 3
+[16-May-2019 22:52:20 Europe/London] PHP Notice:  Use of undefined constant jelszo_conf - assumed 'jelszo_conf' in /home/soktamas/public_html/regisztracio_kod.php on line 4
+[16-May-2019 22:52:20 Europe/London] PHP Notice:  Undefined index: jelszo_conf in /home/soktamas/public_html/regisztracio_kod.php on line 4
+[16-May-2019 22:52:20 Europe/London] PHP Notice:  Use of undefined constant rendes_nev - assumed 'rendes_nev' in /home/soktamas/public_html/regisztracio_kod.php on line 5
+[16-May-2019 22:52:20 Europe/London] PHP Notice:  Undefined index: rendes_nev in /home/soktamas/public_html/regisztracio_kod.php on line 5
+[16-May-2019 22:52:20 Europe/London] PHP Notice:  Use of undefined constant email - assumed 'email' in /home/soktamas/public_html/regisztracio_kod.php on line 6
+[16-May-2019 22:52:20 Europe/London] PHP Notice:  Undefined index: email in /home/soktamas/public_html/regisztracio_kod.php on line 6
+[16-May-2019 22:52:21 Europe/London] PHP Notice:  Use of undefined constant nev - assumed 'nev' in /home/soktamas/public_html/regisztracio_kod.php on line 2
+[16-May-2019 22:52:21 Europe/London] PHP Notice:  Undefined index: nev in /home/soktamas/public_html/regisztracio_kod.php on line 2
+[16-May-2019 22:52:21 Europe/London] PHP Notice:  Use of undefined constant jelszo - assumed 'jelszo' in /home/soktamas/public_html/regisztracio_kod.php on line 3
+[16-May-2019 22:52:21 Europe/London] PHP Notice:  Undefined index: jelszo in /home/soktamas/public_html/regisztracio_kod.php on line 3
+[16-May-2019 22:52:21 Europe/London] PHP Notice:  Use of undefined constant jelszo_conf - assumed 'jelszo_conf' in /home/soktamas/public_html/regisztracio_kod.php on line 4
+[16-May-2019 22:52:21 Europe/London] PHP Notice:  Undefined index: jelszo_conf in /home/soktamas/public_html/regisztracio_kod.php on line 4
+[16-May-2019 22:52:21 Europe/London] PHP Notice:  Use of undefined constant rendes_nev - assumed 'rendes_nev' in /home/soktamas/public_html/regisztracio_kod.php on line 5
+[16-May-2019 22:52:21 Europe/London] PHP Notice:  Undefined index: rendes_nev in /home/soktamas/public_html/regisztracio_kod.php on line 5
+[16-May-2019 22:52:21 Europe/London] PHP Notice:  Use of undefined constant email - assumed 'email' in /home/soktamas/public_html/regisztracio_kod.php on line 6
+[16-May-2019 22:52:21 Europe/London] PHP Notice:  Undefined index: email in /home/soktamas/public_html/regisztracio_kod.php on line 6
+[16-May-2019 22:52:33 Europe/London] PHP Notice:  Use of undefined constant nev - assumed 'nev' in /home/soktamas/public_html/regisztracio_kod.php on line 2
+[16-May-2019 22:52:33 Europe/London] PHP Notice:  Undefined index: nev in /home/soktamas/public_html/regisztracio_kod.php on line 2
+[16-May-2019 22:52:33 Europe/London] PHP Notice:  Use of undefined constant jelszo - assumed 'jelszo' in /home/soktamas/public_html/regisztracio_kod.php on line 3
+[16-May-2019 22:52:33 Europe/London] PHP Notice:  Undefined index: jelszo in /home/soktamas/public_html/regisztracio_kod.php on line 3
+[16-May-2019 22:52:33 Europe/London] PHP Notice:  Use of undefined constant jelszo_conf - assumed 'jelszo_conf' in /home/soktamas/public_html/regisztracio_kod.php on line 4
+[16-May-2019 22:52:33 Europe/London] PHP Notice:  Undefined index: jelszo_conf in /home/soktamas/public_html/regisztracio_kod.php on line 4
+[16-May-2019 22:52:33 Europe/London] PHP Notice:  Use of undefined constant rendes_nev - assumed 'rendes_nev' in /home/soktamas/public_html/regisztracio_kod.php on line 5
+[16-May-2019 22:52:33 Europe/London] PHP Notice:  Undefined index: rendes_nev in /home/soktamas/public_html/regisztracio_kod.php on line 5
+[16-May-2019 22:52:33 Europe/London] PHP Notice:  Use of undefined constant email - assumed 'email' in /home/soktamas/public_html/regisztracio_kod.php on line 6
+[16-May-2019 22:52:33 Europe/London] PHP Notice:  Undefined index: email in /home/soktamas/public_html/regisztracio_kod.php on line 6
+[16-May-2019 22:52:59 Europe/London] PHP Notice:  Use of undefined constant nev - assumed 'nev' in /home/soktamas/public_html/regisztracio_kod.php on line 2
+[16-May-2019 22:52:59 Europe/London] PHP Notice:  Undefined index: nev in /home/soktamas/public_html/regisztracio_kod.php on line 2
+[16-May-2019 22:52:59 Europe/London] PHP Notice:  Use of undefined constant jelszo - assumed 'jelszo' in /home/soktamas/public_html/regisztracio_kod.php on line 3
+[16-May-2019 22:52:59 Europe/London] PHP Notice:  Undefined index: jelszo in /home/soktamas/public_html/regisztracio_kod.php on line 3
+[16-May-2019 22:52:59 Europe/London] PHP Notice:  Use of undefined constant jelszo_conf - assumed 'jelszo_conf' in /home/soktamas/public_html/regisztracio_kod.php on line 4
+[16-May-2019 22:52:59 Europe/London] PHP Notice:  Undefined index: jelszo_conf in /home/soktamas/public_html/regisztracio_kod.php on line 4
+[16-May-2019 22:52:59 Europe/London] PHP Notice:  Use of undefined constant rendes_nev - assumed 'rendes_nev' in /home/soktamas/public_html/regisztracio_kod.php on line 5
+[16-May-2019 22:52:59 Europe/London] PHP Notice:  Undefined index: rendes_nev in /home/soktamas/public_html/regisztracio_kod.php on line 5
+[16-May-2019 22:52:59 Europe/London] PHP Notice:  Use of undefined constant email - assumed 'email' in /home/soktamas/public_html/regisztracio_kod.php on line 6
+[16-May-2019 22:52:59 Europe/London] PHP Notice:  Undefined index: email in /home/soktamas/public_html/regisztracio_kod.php on line 6
+[16-May-2019 22:53:02 Europe/London] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /home/soktamas/public_html/kezdo_oldal_szoveg.php on line 3
+[16-May-2019 23:00:50 Europe/London] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /home/soktamas/public_html/kezdo_oldal_szoveg.php on line 3
+[16-May-2019 23:00:54 Europe/London] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /home/soktamas/public_html/kezdo_oldal_szoveg.php on line 3
+[16-May-2019 23:01:25 Europe/London] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /home/soktamas/public_html/kezdo_oldal_szoveg.php on line 3
+[16-May-2019 23:01:26 Europe/London] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /home/soktamas/public_html/kezdo_oldal_szoveg.php on line 3
+[16-May-2019 23:01:40 Europe/London] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /home/soktamas/public_html/kezdo_oldal_szoveg.php on line 3
+[16-May-2019 23:01:42 Europe/London] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /home/soktamas/public_html/kezdo_oldal_szoveg.php on line 3
+[16-May-2019 23:01:43 Europe/London] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /home/soktamas/public_html/kezdo_oldal_szoveg.php on line 3
+[16-May-2019 23:01:43 Europe/London] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /home/soktamas/public_html/kezdo_oldal_szoveg.php on line 3
+[16-May-2019 23:01:43 Europe/London] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /home/soktamas/public_html/kezdo_oldal_szoveg.php on line 3
+[16-May-2019 23:01:43 Europe/London] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /home/soktamas/public_html/kezdo_oldal_szoveg.php on line 3
+[16-May-2019 23:01:43 Europe/London] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /home/soktamas/public_html/kezdo_oldal_szoveg.php on line 3
+[16-May-2019 23:01:44 Europe/London] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /home/soktamas/public_html/kezdo_oldal_szoveg.php on line 3

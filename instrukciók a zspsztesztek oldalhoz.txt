@@ -1,0 +1,10 @@
+Instrukciók a zspsztesztek oldalhoz
+
+a szövegfájlokat menteni másként utf8 formátumba / online koverter program sok munkától megkímél
+
+minden új oldal betöltésekor kell a session_start() , hogy a $_SESSION[""] változók átmenjenek (POST helyett)
+
+$_SESSION[""] változót nem lehet formális paraméternek berakni csak sima változót
+
+sql lekérdezésben nem lehet session változó
+

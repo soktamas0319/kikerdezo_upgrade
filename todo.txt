@@ -1,0 +1,6 @@
+ne lehessen 2 azonos témát kiválasztani
+>figyelmeztető ablak, ha nem választott semmit a user
+felesleges html elemk kitörlése
+mi van, ha csak 2 lehetséges válasz van?
+az ideiglenes adatbázisok törlése
+gyakorlásnál azok a kérdések legyenek még benne, amikre rossz válasz jött, a többit vegyük ki

@@ -1,0 +1,8 @@
+<?php
+...
+mysqli_select_db($ossz, DB_NEV);
+mysqli_query($ossz, "SET NAMES utf8"); <--ennek a sornak a beszúrása az adatbázis kiválasztása után, megoldja a problémát!
+
+...
+?>
+

@@ -1,0 +1,18 @@
+﻿A nálunk regisztrált tárhelyeken a PHP mail() függvénye illetve a Perl CGI-ből történő levélküldés visszaélések megakadályozása miatt korlátozva van.
+
+Azoknak a felhasználóinknak, akik jóhiszeműen szeretnék használni a scriptekből történő levélküldést, továbbra is megtehetik, az alábbiak figyelembevételével:
+
+    * Bejelentkezés után a "PHP/CGI levélküldés" menüpontban az "azonosító generálása" gombra kattintva aktiválni kell a szolgáltatást. Ha már aktiváltad a szolgáltatást, a gomb helyén az azonosítód jelenik meg.
+    * Naponta (24 óra alatt) maximum 50 levél küldhető el.
+    * Egy e-mail maximum 5 címzettet tartalmazhat összesen, együttvéve a To:, Cc:, Bcc: mezőket.
+    * A levelek header részébe be kell illesztened a következő sort:
+
+      X-FW-MailID: azonosító
+
+      ahol az azonosító helyére az általunk generált karaktersorozatot kell beírnod.
+
+Példa: PHP esetén a mail() függvény 4. paraméterében (additional headers) tudod megadni, azaz: mail("címzett e-mail címe","levél tárgya","levél szövege","X-FW-MailID: azonosító");
+
+Perl CGI-ből történő használathoz a következő útvonalat adhatod meg: /usr/sbin/sendmail
+
+A PHP mail() függvénye korábban is használható volt speciális paraméterezéssel. Ez a korábbi mód - bár továbbra is használható és működik - már nem támogatott, kérjük, PHP scriptjeidben cseréld le a fenti módszerre.
