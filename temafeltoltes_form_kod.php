@@ -1,4 +1,4 @@
-﻿<?php 
+﻿<?php
 include 'beallitas.php';
 //létrehozunk egy ideiglenes táblát
 /*  $ossz=mysql_connect(DB_HOSZT, DB_FELH_NEV, DB_JELSZO);
@@ -18,22 +18,25 @@ include 'beallitas.php';
 
 
 <html>
+
 <head>
-<title>Új kérdéssor hozzáadása</title>
+  <title>Új kérdéssor hozzáadása</title>
 </head>
+
 <body>
 
-<br><br><br>
-<center>
-<form action="tesztepito_keret.php" method="POST">
-Téma neve: <input type="text" name="Tema_neve_box" size="70">
-<br><br><br>
-<input type="hidden" name="felh_nev_mezo" value="<?php print $_POST[felh_nev_mezo] ?>">
-<input type="hidden" name="jelszo" value="<?php print $_POST[jelszo] ?>">
+  <br><br><br>
+  <center>
+    <form action="tesztepito_keret.php" method="POST">
+      Téma neve: <input type="text" name="Tema_neve_box" size="70">
+      <br><br><br>
+      <input type="hidden" name="felh_nev_mezo" value="<?php print $_POST[felh_nev_mezo] ?>">
+      <input type="hidden" name="jelszo" value="<?php print $_POST[jelszo] ?>">
 
-<input type="submit" value="Téma hozzáadása az adatbázishoz!">
-</form>
-</center>
+      <input type="submit" value="Téma hozzáadása az adatbázishoz!">
+    </form>
+  </center>
 
 </body>
+
 </html>

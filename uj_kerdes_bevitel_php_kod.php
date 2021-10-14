@@ -458,6 +458,3 @@ if (!$vege){
   //$celoldal="kezdo_oldal.php";
   $celoldal="user_ell_keret.php";
 }
-?>
-
-

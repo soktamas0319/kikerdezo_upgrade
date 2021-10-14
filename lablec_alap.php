@@ -1,5 +1,5 @@
-<tr align="center" valign="top"> 
-    <td height="50" background="images/bottom.gif"> 
+<tr align="center" valign="top">
+	<td height="50" background="images/bottom.gif">
 		<table width="95%" border="0" cellspacing="0" cellpadding="0">
 			<tr>
 				<td valign="top">

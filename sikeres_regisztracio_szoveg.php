@@ -13,4 +13,3 @@ if ($oke){
 }else{
   print "A regisztráció nem sikerült";
 }
-?>

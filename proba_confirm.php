@@ -1,5 +1,5 @@
 <?php
-function  createConfirmationmbox(){
+function  createConfirmationmbox() {
     echo '<script type="text/javascript"> ';
     echo 'var inputname = prompt("Please enter your name", "");';
     echo 'alert(inputname);';
@@ -8,13 +8,16 @@ function  createConfirmationmbox(){
 ?>
 <!doctype html>
 <html>
+
 <head>
-<meta charset="utf-8">
-<title>JavaScript Prompt Box by PHP</title>
-<?php
+    <meta charset="utf-8">
+    <title>JavaScript Prompt Box by PHP</title>
+    <?php
     createConfirmationmbox();
-?>
+    ?>
 </head>
+
 <body>
 </body>
+
 </html>

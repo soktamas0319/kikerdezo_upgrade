@@ -79,5 +79,3 @@ if (mysql_num_rows($eredmeny) == 1) {
    $hibauzenet.="<a href=\"tesztepito_kezd.php\">Vissza a bejelentkezéshez</a><br>";
   //exit;
 }
-?>
-

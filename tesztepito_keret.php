@@ -1,5 +1,5 @@
 ﻿<!--Beillesztés kezdete>
-<?php include 'uj_kerdes_bevitel_php_kod.php'; 
+<?php include 'uj_kerdes_bevitel_php_kod.php';
 ?>
 <!--Beillesztés vége>
 

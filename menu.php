@@ -1,4 +1,4 @@
-<tr> 
+<tr>
 	<td height="30" valign="top" background="images/bg_menu.jpg">
 		<table cellspacing="0" cellpadding="0" width="740">
 			<tr>

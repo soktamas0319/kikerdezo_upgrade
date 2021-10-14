@@ -50,5 +50,3 @@ include "beallitas.php";
 
 print "$tablazat_kod<br><br>";
 print "<a href=\"eredmeny_keret.php\">Vissza</a><br><br>"
-
-?>
