@@ -8,3 +8,4 @@ function sql_lekerdezes($param_sql_parancs, $hibauzenet){
 		or die( "<b><br>$hibauzenet<br>Hiba a \"$param_sql_parancs\"</b>  lekérdezés futtatásában: " . mysqli_error($ossz));
 	return $result;
 }
+?>
