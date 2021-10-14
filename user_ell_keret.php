@@ -59,10 +59,10 @@
 
 
 <?php print "$uzenet";
-      print "$hibauzenet";
-      print "$rejtes_menu";
-      print "$szerkesztes_menu";
-      print "$torles_menu";
+print "$hibauzenet";
+print "$rejtes_menu";
+print "$szerkesztes_menu";
+print "$torles_menu";
 ?>
 
 

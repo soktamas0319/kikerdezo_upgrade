@@ -13,4 +13,3 @@
 					location.replace('helyes_valaszt_megmutat_keret.php');
 				</script>";	
 	}
-?>
