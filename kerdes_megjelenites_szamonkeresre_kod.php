@@ -5,27 +5,27 @@ include 'beallitas.php';
 
 function tema_id_meghat($temanev) {
   global $idtema;
-  $ossz = mysql_connect(DB_HOSZT, DB_FELH_NEV, DB_JELSZO);
-  mysql_select_db(DB_NEV, $ossz);
+  $ossz = mysqli_connect(DB_HOSZT, DB_FELH_NEV, DB_JELSZO);
+  mysqli_select_db(DB_NEV, $ossz);
   $id_sql = "select idTema from temak where (Tema_nev='$temanev')";
-  $eredmeny = mysql_query($id_sql, $ossz) or die("Hiba!!! az idtema lekérdezésben: " . mysql_error());
-  $tomb = mysql_fetch_array($eredmeny);
+  $eredmeny = mysqli_query($id_sql, $ossz) or die("Hiba!!! az idtema lekérdezésben: " . mysqli_error());
+  $tomb = mysqli_fetch_array($eredmeny);
   return $tomb[idTema];
 }
 
 
 function kerdest_beolvas($idtema, $kerdesn, $id_tablanev) {
   global $kerdes, $valasz1, $valasz2, $valasz3, $helyes, $k_sorszamok, $kerdes_azon;
-  $ossz = mysql_connect(DB_HOSZT, DB_FELH_NEV, DB_JELSZO);
-  mysql_select_db(DB_NEV, $ossz);
+  $ossz = mysqli_connect(DB_HOSZT, DB_FELH_NEV, DB_JELSZO);
+  mysqli_select_db(DB_NEV, $ossz);
   $sql_sorsz = "select kerdes_n from $id_tablanev where n=$kerdesn ";  //a soron következő kérdést kiválasztjuk
-  $eredmeny = mysql_query($sql_sorsz, $ossz) or die("Hiba a kérdés kiválasztásánál az ideiglenes táblázatban " . mysql_error());
-  $mezo = mysql_fetch_array($eredmeny);
+  $eredmeny = mysqli_query($sql_sorsz, $ossz) or die("Hiba a kérdés kiválasztásánál az ideiglenes táblázatban " . mysqli_error());
+  $mezo = mysqli_fetch_array($eredmeny);
   $kerdes_n = $mezo[kerdes_n];                                            //egy véletlen sorszámot kapunk
   $kerd_sql = "select * from kerd_val where (idTema=$idtema) and (KerdesN=$kerdes_n)";
   print "<br>$n";
-  $result = mysql_query($kerd_sql, $ossz) or die("Hiba a kérdés lekérdezésében: " . mysql_error());
-  $eredmeny = mysql_fetch_array($result);
+  $result = mysqli_query($kerd_sql, $ossz) or die("Hiba a kérdés lekérdezésében: " . mysqli_error());
+  $eredmeny = mysqli_fetch_array($result);
   $kerdes = $eredmeny[kerdes];
   $valasz1 = $eredmeny[valasz1];
   $valasz2 = $eredmeny[valasz2];
@@ -35,11 +35,11 @@ function kerdest_beolvas($idtema, $kerdesn, $id_tablanev) {
 }
 
 function max_kerdes($idtema) {
-  $ossz = mysql_connect(DB_HOSZT, DB_FELH_NEV, DB_JELSZO);
-  mysql_select_db(DB_NEV, $ossz);
+  $ossz = mysqli_connect(DB_HOSZT, DB_FELH_NEV, DB_JELSZO);
+  mysqli_select_db(DB_NEV, $ossz);
   $kerd_sql = "select * from kerd_val where (idTema=$idtema)";
-  $result = mysql_query($kerd_sql, $ossz) or die("Hiba a max_kérdés megállapításában: " . mysql_error());
-  $max = mysql_num_rows($result);
+  $result = mysqli_query($kerd_sql, $ossz) or die("Hiba a max_kérdés megállapításában: " . mysqli_error());
+  $max = mysqli_num_rows($result);
   return $max;
 }
 
@@ -49,11 +49,11 @@ function vege($kerdesn, $max) {
 
 
 function veletlen_sorsz_tablat_letrehoz($max, $id_tablanev) {
-  $ossz = mysql_connect(DB_HOSZT, DB_FELH_NEV, DB_JELSZO);
-  mysql_select_db(DB_NEV, $ossz);
+  $ossz = mysqli_connect(DB_HOSZT, DB_FELH_NEV, DB_JELSZO);
+  mysqli_select_db(DB_NEV, $ossz);
 
   $sql = "create table $id_tablanev (n integer, kerdes_n integer, helyes_e integer)";
-  $result = mysql_query($sql, $ossz) or die("Hiba a sorszámok tábla létrehozásában: " . mysql_error());
+  $result = mysqli_query($sql, $ossz) or die("Hiba a sorszámok tábla létrehozásában: " . mysqli_error());
 
   $k_sorszamok = range(1, $max);      //véletlen sorrend
   srand((float)microtime() * 100000);
@@ -61,29 +61,29 @@ function veletlen_sorsz_tablat_letrehoz($max, $id_tablanev) {
   $i = 1;
   while (list(, $k_sorszam) = each($k_sorszamok)) {        //feltöltjük a kapott értékeket
     $sql = "insert into $id_tablanev values ($i , $k_sorszam, 0)";   //0 nem helyes, 1 helyes
-    $result = mysql_query($sql, $ossz) or die("Hiba a sorszámok tábla feltöltésében: " . mysql_error());
+    $result = mysqli_query($sql, $ossz) or die("Hiba a sorszámok tábla feltöltésében: " . mysqli_error());
     $i++;
   }
 }
 
 
 function jo_valaszt_megjegyez($kerdesn, $id_tablanev) {
-  $ossz = mysql_connect(DB_HOSZT, DB_FELH_NEV, DB_JELSZO);
-  mysql_select_db(DB_NEV, $ossz);
+  $ossz = mysqli_connect(DB_HOSZT, DB_FELH_NEV, DB_JELSZO);
+  mysqli_select_db(DB_NEV, $ossz);
   $kerdesn--;
   $sql = "update $id_tablanev set helyes_e=1 where n='$kerdesn'";
-  $result = mysql_query($sql, $ossz) or die("Hiba a helyes válasz sorszámának megjegyzésében: " . mysql_error());
+  $result = mysqli_query($sql, $ossz) or die("Hiba a helyes válasz sorszámának megjegyzésében: " . mysqli_error());
 }
 
 
 function van_tabla($id_tablanev) {
-  $ossz = mysql_connect(DB_HOSZT, DB_FELH_NEV, DB_JELSZO);
-  $db = mysql_select_db(DB_NEV, $ossz);
-  $eredmeny = mysql_list_tables(DB_NEV);
+  $ossz = mysqli_connect(DB_HOSZT, DB_FELH_NEV, DB_JELSZO);
+  $db = mysqli_select_db(DB_NEV, $ossz);
+  $eredmeny = mysqli_list_tables(DB_NEV);
   $i = 0;
   $vanilyen = false;
-  while ($i < mysql_num_rows($eredmeny)) {
-    $tb_nevek[$i] = mysql_tablename($eredmeny, $i);
+  while ($i < mysqli_num_rows($eredmeny)) {
+    $tb_nevek[$i] = mysqli_tablename($eredmeny, $i);
     if (strstr($tb_nevek[$i], $id_tablanev)) {
       $vanilyen = true;
     }
@@ -98,11 +98,11 @@ function van_tabla($id_tablanev) {
 
 
 function tablat_torol($id_tablanev) {
-  $ossz = mysql_connect(DB_HOSZT, DB_FELH_NEV, DB_JELSZO);
-  $db = mysql_select_db(DB_NEV, $ossz);
-  $eredmeny = mysql_list_tables(DB_NEV);
+  $ossz = mysqli_connect(DB_HOSZT, DB_FELH_NEV, DB_JELSZO);
+  $db = mysqli_select_db(DB_NEV, $ossz);
+  $eredmeny = mysqli_list_tables(DB_NEV);
   $sql_torles = "drop table $id_tablanev";
-  $torles_eredmeny = mysql_query($sql_torles, $ossz) or die("Hiba az ideiglenes tábla törlésekor " . mysql_error());
+  $torles_eredmeny = mysqli_query($sql_torles, $ossz) or die("Hiba az ideiglenes tábla törlésekor " . mysqli_error());
 }
 
 
@@ -172,7 +172,7 @@ if (!vege($kerdesn, $max)) {
     <?php print $temanev ?>
   </h3>
 
-  <!--A form kezdete>
+  <!--A form kezdete-->
 <form action="<?php print "$celoldal?" ?>" method="POST"> 
    <input type="hidden"  name="Tema" value="<?php print "$temanev" ?>">
    <input type="hidden"  name="tema_azon" value="<?php print $idtema ?>">

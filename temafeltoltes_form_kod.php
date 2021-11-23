@@ -1,8 +1,8 @@
 ﻿<?php
 include 'beallitas.php';
 //létrehozunk egy ideiglenes táblát
-/*  $ossz=mysql_connect(DB_HOSZT, DB_FELH_NEV, DB_JELSZO);
-  mysql_select_db(DB_NEV, $ossz);
+/*  $ossz=mysqli_connect(DB_HOSZT, DB_FELH_NEV, DB_JELSZO);
+  mysqli_select_db(DB_NEV, $ossz);
   $id_tablanev=$_POST[felh_nev_mezo]."_user_table";
   $sql="create table $id_tablanev (
                                            KerdesN integer, 
@@ -12,7 +12,7 @@ include 'beallitas.php';
                                            valasz3 varchar(250), 
                                            helyes integer)";
                                            
-  $eredmeny=mysql_query($sql, $ossz) or die ("Hiba az ideiglenes tábla létrehozásában:" .mysql_error());*/
+  $eredmeny=mysqli_query($sql, $ossz) or die ("Hiba az ideiglenes tábla létrehozásában:" .mysqli_error());*/
 ?>
 
 

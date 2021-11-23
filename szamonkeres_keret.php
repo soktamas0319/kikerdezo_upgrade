@@ -56,11 +56,11 @@
           <div align="left" id="imTitle" style="width:730">Számonkérés</div>
 
           <div style="height:0px; width:730px; position: relative">
-            <!--div id="imToolTip"></div>
+            <!--div id="imToolTip"></div-->
 
-<!--Itt kezdődik>
+<!--Itt kezdődik-->
     <?php include 'kerdes_megjelenites_szamonkeresre_kod.php' ?>
-<!--itt végződik>
+<!--itt végződik-->
 
   
 </div>

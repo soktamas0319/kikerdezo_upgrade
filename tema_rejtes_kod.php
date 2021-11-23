@@ -32,10 +32,10 @@ $felh_nev = $_POST[felh_nev_mezo];
 $jelszo = $_POST[jelszo];
 $teljes_nev = $_POST[teljes_nev];
 
-$ossz = mysql_connect(DB_HOSZT, DB_FELH_NEV, DB_JELSZO) or die(mysql_error());
-mysql_select_db(DB_NEV, $ossz)  or die(mysql_error());
+$ossz = mysqli_connect(DB_HOSZT, DB_FELH_NEV, DB_JELSZO) or die(mysqli_error());
+mysqli_select_db(DB_NEV, $ossz)  or die(mysqli_error());
 $sql_temak = "select idTema, tulajdonos, Tema_nev, latszik from temak where tulajdonos = '$_POST[felh_nev_mezo]' order by Tema_nev";
-$eredmeny = mysql_query($sql_temak, $ossz) or die("Hiba a témák lekérdezésében " . mysql_error());
+$eredmeny = mysqli_query($sql_temak, $ossz) or die("Hiba a témák lekérdezésében " . mysqli_error());
 
 print "<h3>$teljes_nev témái</h3><br>";
 
@@ -53,7 +53,7 @@ $hatterszin = "brown";
     </tr>
 
     <?php $n = 1;            //Felépítjük a táblázatot
-    while ($mezo = mysql_fetch_array($eredmeny)) {
+    while ($mezo = mysqli_fetch_array($eredmeny)) {
       $idTema = $mezo['idTema'];
       $temanev = $mezo['Tema_nev'];
       $latszik = $mezo['latszik'];

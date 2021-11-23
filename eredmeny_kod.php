@@ -2,13 +2,13 @@
 include 'beallitas.php';
 
 function van_tabla($id_tablanev) {
-  $ossz = mysql_connect(DB_HOSZT, DB_FELH_NEV, DB_JELSZO);
-  $db = mysql_select_db(DB_NEV, $ossz);
-  $eredmeny = mysql_list_tables(DB_NEV);
+  $ossz = mysqli_connect(DB_HOSZT, DB_FELH_NEV, DB_JELSZO);
+  $db = mysqli_select_db(DB_NEV, $ossz);
+  $eredmeny = mysqli_list_tables(DB_NEV);
   $i = 0;
   $vanilyen = false;
-  while ($i < mysql_num_rows($eredmeny)) {
-    $tb_nevek[$i] = mysql_tablename($eredmeny, $i);
+  while ($i < mysqli_num_rows($eredmeny)) {
+    $tb_nevek[$i] = mysqli_tablename($eredmeny, $i);
     if ($tb_nevek[$i] == $id_tablanev) {
       $vanilyen = true;
     }
@@ -22,26 +22,26 @@ function van_tabla($id_tablanev) {
 }
 
 function tablat_torol($id_tablanev) {
-  $ossz = mysql_connect(DB_HOSZT, DB_FELH_NEV, DB_JELSZO);
-  $db = mysql_select_db(DB_NEV, $ossz);
+  $ossz = mysqli_connect(DB_HOSZT, DB_FELH_NEV, DB_JELSZO);
+  $db = mysqli_select_db(DB_NEV, $ossz);
   $sql_torles = "drop table $id_tablanev";
-  $torles_eredmeny = mysql_query($sql_torles, $ossz) or die("Hiba az ideiglenes tábla törlésekor " . mysql_error());
+  $torles_eredmeny = mysqli_query($sql_torles, $ossz) or die("Hiba az ideiglenes tábla törlésekor " . mysqli_error());
 }
 
 
 function naploba_ir($idTema, $nev, $szazalek, $datum) {
-  $ossz = mysql_connect(DB_HOSZT, DB_FELH_NEV, DB_JELSZO);
-  $db = mysql_select_db(DB_NEV, $ossz);
+  $ossz = mysqli_connect(DB_HOSZT, DB_FELH_NEV, DB_JELSZO);
+  $db = mysqli_select_db(DB_NEV, $ossz);
   $sql_naploz = "insert into naplo (nev, datum, eredmeny, idTema) values ('$nev', '$datum', '$szazalek', $idTema)";
-  $eredmeny_naploz = mysql_query($sql_naploz, $ossz) or die("Hiba a napló írásakor " . mysql_error());
+  $eredmeny_naploz = mysqli_query($sql_naploz, $ossz) or die("Hiba a napló írásakor " . mysqli_error());
 }
 
 
 function jo_valaszt_megjegyez($kerdesn, $id_tablanev) {   //ha jó volt a válasz, az ideiglenes táblába 1-est rak a megf mezőbe
-  $ossz = mysql_connect(DB_HOSZT, DB_FELH_NEV, DB_JELSZO);
-  mysql_select_db(DB_NEV, $ossz);
+  $ossz = mysqli_connect(DB_HOSZT, DB_FELH_NEV, DB_JELSZO);
+  mysqli_select_db(DB_NEV, $ossz);
   $sql = "update $id_tablanev set helyes_e=1 where n=$kerdesn";
-  $result = mysql_query($sql, $ossz) or die("Hiba a $kerdesn helyes válasz sorszámának megjegyzésében: " . mysql_error());
+  $result = mysqli_query($sql, $ossz) or die("Hiba a $kerdesn helyes válasz sorszámának megjegyzésében: " . mysqli_error());
 }
 
 
@@ -67,15 +67,15 @@ function hibas_valaszok($idTema, $id_tablanev) {
   $kod = "<br>";
   $kod .= "<table border=\"0\" cellpadding=\"2\" cellspacing=\"2\" width=\"90%\" >";
 
-  $ossz = mysql_connect(DB_HOSZT, DB_FELH_NEV, DB_JELSZO);
-  mysql_select_db(DB_NEV, $ossz);
+  $ossz = mysqli_connect(DB_HOSZT, DB_FELH_NEV, DB_JELSZO);
+  mysqli_select_db(DB_NEV, $ossz);
   $sql_ideiglenes = "select kerdes_n from $id_tablanev where helyes_e=0";
-  $result = mysql_query($sql_ideiglenes, $ossz) or die("Hiba a hibás válaszok ID-jének lekérdezésében: " . mysql_error());
-  while ($mezo = mysql_fetch_array($result)) {
+  $result = mysqli_query($sql_ideiglenes, $ossz) or die("Hiba a hibás válaszok ID-jének lekérdezésében: " . mysqli_error());
+  while ($mezo = mysqli_fetch_array($result)) {
     $kerdesn = $mezo['kerdes_n'];              //lekérdezzük a kerd_val adatbázist az aktuális kérdés ID-vel
     $sql_kerd_val = "select kerdes, valasz1, valasz2, valasz3, helyes from kerd_val where (idTema='$idTema') and (KerdesN='$kerdesn')";
-    $result2 = mysql_query($sql_kerd_val, $ossz) or die("Hiba a hibás válaszok lekérdezésében: " . mysql_error());
-    $mezo2 = mysql_fetch_array($result2);
+    $result2 = mysqli_query($sql_kerd_val, $ossz) or die("Hiba a hibás válaszok lekérdezésében: " . mysqli_error());
+    $mezo2 = mysqli_fetch_array($result2);
 
     $kerdes = $mezo2['kerdes'];  //Beállítjuk a kiírandó változókat
     $valasz[1] = $mezo2['valasz1'];

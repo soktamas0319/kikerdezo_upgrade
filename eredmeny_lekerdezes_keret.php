@@ -55,7 +55,7 @@
         <center>
           <div align="left" id="imTitle" style="width:730">Eredménytábla</div>
           <div style="height:0px; width:730px; position: relative color:white">
-            <!--div id="imToolTip"></div>
+            <!--div id="imToolTip"></div-->
 
 
   <?php include 'eredmeny_lekerdezes_kod.php' ?>

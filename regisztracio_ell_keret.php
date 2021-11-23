@@ -55,10 +55,10 @@
           <div align="left" id="imTitle" style="width:730">Regisztráció</div>
 
           <div style="height:0px; width:730px; position: relative">
-            <!--div id="imToolTip"></div>
+            <!--div id="imToolTip"></div-->
 
 
-<!--Beágyazás kezdődik>
+<!--Beágyazás kezdődik-->
 <?php
 include "regisztracio_ell_kod.php"
 ?>

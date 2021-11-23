@@ -1,4 +1,4 @@
-[13-May-2019 22:30:28 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/soktamas/public_html/temavalasztas_gyakorlasra_kod.php:4
+[13-May-2019 22:30:28 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home/soktamas/public_html/temavalasztas_gyakorlasra_kod.php:4
 Stack trace:
 #0 /home/soktamas/public_html/gyakorlas_kezd.php(57): include()
 #1 {main}
@@ -13,7 +13,7 @@ Stack trace:
 [13-May-2019 22:33:51 Europe/London] PHP Notice:  Undefined index: rendes_nev in /home/soktamas/public_html/regisztracio_kod.php on line 5
 [13-May-2019 22:33:51 Europe/London] PHP Notice:  Use of undefined constant email - assumed 'email' in /home/soktamas/public_html/regisztracio_kod.php on line 6
 [13-May-2019 22:33:51 Europe/London] PHP Notice:  Undefined index: email in /home/soktamas/public_html/regisztracio_kod.php on line 6
-[13-May-2019 22:47:22 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/soktamas/public_html/temavalasztas_gyakorlasra_kod.php:4
+[13-May-2019 22:47:22 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home/soktamas/public_html/temavalasztas_gyakorlasra_kod.php:4
 Stack trace:
 #0 /home/soktamas/public_html/gyakorlas_kezd.php(57): include()
 #1 {main}
@@ -60,12 +60,12 @@ Stack trace:
 ' in /home/soktamas/public_html/kezdo_oldal.php on line 57
 [15-May-2019 08:19:20 Europe/London] PHP Parse error:  syntax error, unexpected '?>
 ' in /home/soktamas/public_html/kezdo_oldal.php on line 57
-[15-May-2019 09:07:00 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/soktamas/public_html/temavalasztas_gyakorlasra_kod.php:4
+[15-May-2019 09:07:00 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home/soktamas/public_html/temavalasztas_gyakorlasra_kod.php:4
 Stack trace:
 #0 /home/soktamas/public_html/gyakorlas_kezd.php(57): include()
 #1 {main}
   thrown in /home/soktamas/public_html/temavalasztas_gyakorlasra_kod.php on line 4
-[15-May-2019 09:07:03 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/soktamas/public_html/temavalasztas_szamonkeresre_kod.php:5
+[15-May-2019 09:07:03 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home/soktamas/public_html/temavalasztas_szamonkeresre_kod.php:5
 Stack trace:
 #0 /home/soktamas/public_html/szamonkeres_kezd.php(57): include()
 #1 {main}
@@ -91,7 +91,7 @@ Stack trace:
 [15-May-2019 09:07:04 Europe/London] PHP Notice:  Constant DB_FELH_NEV already defined in /home/soktamas/public_html/beallitas.php on line 3
 [15-May-2019 09:07:04 Europe/London] PHP Notice:  Constant DB_JELSZO already defined in /home/soktamas/public_html/beallitas.php on line 4
 [15-May-2019 09:07:04 Europe/London] PHP Notice:  Constant DB_NEV already defined in /home/soktamas/public_html/beallitas.php on line 5
-[15-May-2019 09:07:04 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/soktamas/public_html/eredmeny_lekerdezes_kezd_kod.php:6
+[15-May-2019 09:07:04 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home/soktamas/public_html/eredmeny_lekerdezes_kezd_kod.php:6
 Stack trace:
 #0 /home/soktamas/public_html/eredmeny_kod.php(133): include()
 #1 /home/soktamas/public_html/eredmeny_keret.php(56): include('/home/soktamas/...')
@@ -107,57 +107,57 @@ Stack trace:
 [15-May-2019 09:07:05 Europe/London] PHP Notice:  Undefined index: rendes_nev in /home/soktamas/public_html/regisztracio_kod.php on line 5
 [15-May-2019 09:07:05 Europe/London] PHP Notice:  Use of undefined constant email - assumed 'email' in /home/soktamas/public_html/regisztracio_kod.php on line 6
 [15-May-2019 09:07:05 Europe/London] PHP Notice:  Undefined index: email in /home/soktamas/public_html/regisztracio_kod.php on line 6
-[15-May-2019 10:02:19 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/soktamas/public_html/temavalasztas_gyakorlasra_kod.php:4
+[15-May-2019 10:02:19 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home/soktamas/public_html/temavalasztas_gyakorlasra_kod.php:4
 Stack trace:
 #0 /home/soktamas/public_html/gyakorlas_kezd.php(57): include()
 #1 {main}
   thrown in /home/soktamas/public_html/temavalasztas_gyakorlasra_kod.php on line 4
-[15-May-2019 10:14:25 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/soktamas/public_html/temavalasztas_gyakorlasra_kod.php:4
+[15-May-2019 10:14:25 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home/soktamas/public_html/temavalasztas_gyakorlasra_kod.php:4
 Stack trace:
 #0 /home/soktamas/public_html/gyakorlas_kezd.php(57): include()
 #1 {main}
   thrown in /home/soktamas/public_html/temavalasztas_gyakorlasra_kod.php on line 4
-[15-May-2019 10:14:38 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/soktamas/public_html/temavalasztas_gyakorlasra_kod.php:4
+[15-May-2019 10:14:38 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home/soktamas/public_html/temavalasztas_gyakorlasra_kod.php:4
 Stack trace:
 #0 /home/soktamas/public_html/gyakorlas_kezd.php(57): include()
 #1 {main}
   thrown in /home/soktamas/public_html/temavalasztas_gyakorlasra_kod.php on line 4
-[15-May-2019 10:16:10 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/soktamas/public_html/temavalasztas_gyakorlasra_kod.php:4
+[15-May-2019 10:16:10 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home/soktamas/public_html/temavalasztas_gyakorlasra_kod.php:4
 Stack trace:
 #0 /home/soktamas/public_html/gyakorlas_kezd.php(57): include()
 #1 {main}
   thrown in /home/soktamas/public_html/temavalasztas_gyakorlasra_kod.php on line 4
-[15-May-2019 10:16:11 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/soktamas/public_html/temavalasztas_gyakorlasra_kod.php:4
+[15-May-2019 10:16:11 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home/soktamas/public_html/temavalasztas_gyakorlasra_kod.php:4
 Stack trace:
 #0 /home/soktamas/public_html/gyakorlas_kezd.php(57): include()
 #1 {main}
   thrown in /home/soktamas/public_html/temavalasztas_gyakorlasra_kod.php on line 4
-[15-May-2019 10:16:21 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/soktamas/public_html/temavalasztas_gyakorlasra_kod.php:4
+[15-May-2019 10:16:21 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home/soktamas/public_html/temavalasztas_gyakorlasra_kod.php:4
 Stack trace:
 #0 /home/soktamas/public_html/gyakorlas_kezd.php(57): include()
 #1 {main}
   thrown in /home/soktamas/public_html/temavalasztas_gyakorlasra_kod.php on line 4
-[15-May-2019 10:16:23 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/soktamas/public_html/temavalasztas_gyakorlasra_kod.php:4
+[15-May-2019 10:16:23 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home/soktamas/public_html/temavalasztas_gyakorlasra_kod.php:4
 Stack trace:
 #0 /home/soktamas/public_html/gyakorlas_kezd.php(57): include()
 #1 {main}
   thrown in /home/soktamas/public_html/temavalasztas_gyakorlasra_kod.php on line 4
-[15-May-2019 10:16:55 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/soktamas/public_html/temavalasztas_gyakorlasra_kod.php:4
+[15-May-2019 10:16:55 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home/soktamas/public_html/temavalasztas_gyakorlasra_kod.php:4
 Stack trace:
 #0 /home/soktamas/public_html/gyakorlas_kezd.php(57): include()
 #1 {main}
   thrown in /home/soktamas/public_html/temavalasztas_gyakorlasra_kod.php on line 4
-[15-May-2019 10:17:00 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/soktamas/public_html/temavalasztas_szamonkeresre_kod.php:5
+[15-May-2019 10:17:00 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home/soktamas/public_html/temavalasztas_szamonkeresre_kod.php:5
 Stack trace:
 #0 /home/soktamas/public_html/szamonkeres_kezd.php(57): include()
 #1 {main}
   thrown in /home/soktamas/public_html/temavalasztas_szamonkeresre_kod.php on line 5
-[15-May-2019 10:17:29 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/soktamas/public_html/temavalasztas_szamonkeresre_kod.php:5
+[15-May-2019 10:17:29 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home/soktamas/public_html/temavalasztas_szamonkeresre_kod.php:5
 Stack trace:
 #0 /home/soktamas/public_html/szamonkeres_kezd.php(57): include()
 #1 {main}
   thrown in /home/soktamas/public_html/temavalasztas_szamonkeresre_kod.php on line 5
-[15-May-2019 10:17:32 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/soktamas/public_html/temavalasztas_szamonkeresre_kod.php:5
+[15-May-2019 10:17:32 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home/soktamas/public_html/temavalasztas_szamonkeresre_kod.php:5
 Stack trace:
 #0 /home/soktamas/public_html/szamonkeres_kezd.php(57): include()
 #1 {main}
@@ -183,7 +183,7 @@ Stack trace:
 [15-May-2019 10:17:53 Europe/London] PHP Notice:  Constant DB_FELH_NEV already defined in /home/soktamas/public_html/beallitas.php on line 3
 [15-May-2019 10:17:53 Europe/London] PHP Notice:  Constant DB_JELSZO already defined in /home/soktamas/public_html/beallitas.php on line 4
 [15-May-2019 10:17:53 Europe/London] PHP Notice:  Constant DB_NEV already defined in /home/soktamas/public_html/beallitas.php on line 5
-[15-May-2019 10:17:53 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/soktamas/public_html/eredmeny_lekerdezes_kezd_kod.php:6
+[15-May-2019 10:17:53 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home/soktamas/public_html/eredmeny_lekerdezes_kezd_kod.php:6
 Stack trace:
 #0 /home/soktamas/public_html/eredmeny_kod.php(133): include()
 #1 /home/soktamas/public_html/eredmeny_keret.php(56): include('/home/soktamas/...')
@@ -210,7 +210,7 @@ Stack trace:
 [15-May-2019 10:18:16 Europe/London] PHP Notice:  Constant DB_FELH_NEV already defined in /home/soktamas/public_html/beallitas.php on line 3
 [15-May-2019 10:18:16 Europe/London] PHP Notice:  Constant DB_JELSZO already defined in /home/soktamas/public_html/beallitas.php on line 4
 [15-May-2019 10:18:16 Europe/London] PHP Notice:  Constant DB_NEV already defined in /home/soktamas/public_html/beallitas.php on line 5
-[15-May-2019 10:18:16 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/soktamas/public_html/eredmeny_lekerdezes_kezd_kod.php:6
+[15-May-2019 10:18:16 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home/soktamas/public_html/eredmeny_lekerdezes_kezd_kod.php:6
 Stack trace:
 #0 /home/soktamas/public_html/eredmeny_kod.php(133): include()
 #1 /home/soktamas/public_html/eredmeny_keret.php(56): include('/home/soktamas/...')
@@ -236,12 +236,12 @@ Stack trace:
 [15-May-2019 10:31:28 Europe/London] PHP Notice:  Undefined index: rendes_nev in /home/soktamas/public_html/regisztracio_kod.php on line 5
 [15-May-2019 10:31:28 Europe/London] PHP Notice:  Use of undefined constant email - assumed 'email' in /home/soktamas/public_html/regisztracio_kod.php on line 6
 [15-May-2019 10:31:28 Europe/London] PHP Notice:  Undefined index: email in /home/soktamas/public_html/regisztracio_kod.php on line 6
-[15-May-2019 10:31:36 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/soktamas/public_html/temavalasztas_gyakorlasra_kod.php:4
+[15-May-2019 10:31:36 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home/soktamas/public_html/temavalasztas_gyakorlasra_kod.php:4
 Stack trace:
 #0 /home/soktamas/public_html/gyakorlas_kezd.php(57): include()
 #1 {main}
   thrown in /home/soktamas/public_html/temavalasztas_gyakorlasra_kod.php on line 4
-[15-May-2019 10:31:38 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/soktamas/public_html/temavalasztas_szamonkeresre_kod.php:5
+[15-May-2019 10:31:38 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home/soktamas/public_html/temavalasztas_szamonkeresre_kod.php:5
 Stack trace:
 #0 /home/soktamas/public_html/szamonkeres_kezd.php(57): include()
 #1 {main}
@@ -267,7 +267,7 @@ Stack trace:
 [15-May-2019 10:31:43 Europe/London] PHP Notice:  Constant DB_FELH_NEV already defined in /home/soktamas/public_html/beallitas.php on line 3
 [15-May-2019 10:31:43 Europe/London] PHP Notice:  Constant DB_JELSZO already defined in /home/soktamas/public_html/beallitas.php on line 4
 [15-May-2019 10:31:43 Europe/London] PHP Notice:  Constant DB_NEV already defined in /home/soktamas/public_html/beallitas.php on line 5
-[15-May-2019 10:31:43 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/soktamas/public_html/eredmeny_lekerdezes_kezd_kod.php:6
+[15-May-2019 10:31:43 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home/soktamas/public_html/eredmeny_lekerdezes_kezd_kod.php:6
 Stack trace:
 #0 /home/soktamas/public_html/eredmeny_kod.php(133): include()
 #1 /home/soktamas/public_html/eredmeny_keret.php(56): include('/home/soktamas/...')
@@ -283,17 +283,17 @@ Stack trace:
 [15-May-2019 10:31:44 Europe/London] PHP Notice:  Undefined index: rendes_nev in /home/soktamas/public_html/regisztracio_kod.php on line 5
 [15-May-2019 10:31:44 Europe/London] PHP Notice:  Use of undefined constant email - assumed 'email' in /home/soktamas/public_html/regisztracio_kod.php on line 6
 [15-May-2019 10:31:44 Europe/London] PHP Notice:  Undefined index: email in /home/soktamas/public_html/regisztracio_kod.php on line 6
-[15-May-2019 10:31:48 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/soktamas/public_html/temavalasztas_gyakorlasra_kod.php:4
+[15-May-2019 10:31:48 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home/soktamas/public_html/temavalasztas_gyakorlasra_kod.php:4
 Stack trace:
 #0 /home/soktamas/public_html/gyakorlas_kezd.php(57): include()
 #1 {main}
   thrown in /home/soktamas/public_html/temavalasztas_gyakorlasra_kod.php on line 4
-[16-May-2019 19:24:37 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/soktamas/public_html/temavalasztas_gyakorlasra_kod.php:4
+[16-May-2019 19:24:37 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home/soktamas/public_html/temavalasztas_gyakorlasra_kod.php:4
 Stack trace:
 #0 /home/soktamas/public_html/gyakorlas_kezd.php(57): include()
 #1 {main}
   thrown in /home/soktamas/public_html/temavalasztas_gyakorlasra_kod.php on line 4
-[16-May-2019 19:24:38 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/soktamas/public_html/temavalasztas_szamonkeresre_kod.php:5
+[16-May-2019 19:24:38 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home/soktamas/public_html/temavalasztas_szamonkeresre_kod.php:5
 Stack trace:
 #0 /home/soktamas/public_html/szamonkeres_kezd.php(57): include()
 #1 {main}
@@ -319,7 +319,7 @@ Stack trace:
 [16-May-2019 19:24:40 Europe/London] PHP Notice:  Constant DB_FELH_NEV already defined in /home/soktamas/public_html/beallitas.php on line 3
 [16-May-2019 19:24:40 Europe/London] PHP Notice:  Constant DB_JELSZO already defined in /home/soktamas/public_html/beallitas.php on line 4
 [16-May-2019 19:24:40 Europe/London] PHP Notice:  Constant DB_NEV already defined in /home/soktamas/public_html/beallitas.php on line 5
-[16-May-2019 19:24:40 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/soktamas/public_html/eredmeny_lekerdezes_kezd_kod.php:6
+[16-May-2019 19:24:40 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home/soktamas/public_html/eredmeny_lekerdezes_kezd_kod.php:6
 Stack trace:
 #0 /home/soktamas/public_html/eredmeny_kod.php(133): include()
 #1 /home/soktamas/public_html/eredmeny_keret.php(56): include('/home/soktamas/...')
@@ -343,22 +343,22 @@ Stack trace:
 [16-May-2019 20:04:28 Europe/London] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /home/soktamas/public_html/kezdo_oldal_szoveg.php on line 3
 [16-May-2019 20:04:29 Europe/London] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /home/soktamas/public_html/kezdo_oldal_szoveg.php on line 3
 [16-May-2019 20:04:31 Europe/London] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /home/soktamas/public_html/kezdo_oldal_szoveg.php on line 3
-[16-May-2019 20:04:33 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/soktamas/public_html/temavalasztas_gyakorlasra_kod.php:4
+[16-May-2019 20:04:33 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home/soktamas/public_html/temavalasztas_gyakorlasra_kod.php:4
 Stack trace:
 #0 /home/soktamas/public_html/gyakorlas_kezd.php(57): include()
 #1 {main}
   thrown in /home/soktamas/public_html/temavalasztas_gyakorlasra_kod.php on line 4
-[16-May-2019 20:04:34 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/soktamas/public_html/temavalasztas_szamonkeresre_kod.php:5
+[16-May-2019 20:04:34 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home/soktamas/public_html/temavalasztas_szamonkeresre_kod.php:5
 Stack trace:
 #0 /home/soktamas/public_html/szamonkeres_kezd.php(57): include()
 #1 {main}
   thrown in /home/soktamas/public_html/temavalasztas_szamonkeresre_kod.php on line 5
-[16-May-2019 20:04:37 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/soktamas/public_html/temavalasztas_gyakorlasra_kod.php:4
+[16-May-2019 20:04:37 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home/soktamas/public_html/temavalasztas_gyakorlasra_kod.php:4
 Stack trace:
 #0 /home/soktamas/public_html/gyakorlas_kezd.php(57): include()
 #1 {main}
   thrown in /home/soktamas/public_html/temavalasztas_gyakorlasra_kod.php on line 4
-[16-May-2019 20:04:40 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/soktamas/public_html/temavalasztas_szamonkeresre_kod.php:5
+[16-May-2019 20:04:40 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home/soktamas/public_html/temavalasztas_szamonkeresre_kod.php:5
 Stack trace:
 #0 /home/soktamas/public_html/szamonkeres_kezd.php(57): include()
 #1 {main}
@@ -384,7 +384,7 @@ Stack trace:
 [16-May-2019 20:04:42 Europe/London] PHP Notice:  Constant DB_FELH_NEV already defined in /home/soktamas/public_html/beallitas.php on line 3
 [16-May-2019 20:04:42 Europe/London] PHP Notice:  Constant DB_JELSZO already defined in /home/soktamas/public_html/beallitas.php on line 4
 [16-May-2019 20:04:42 Europe/London] PHP Notice:  Constant DB_NEV already defined in /home/soktamas/public_html/beallitas.php on line 5
-[16-May-2019 20:04:42 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/soktamas/public_html/eredmeny_lekerdezes_kezd_kod.php:6
+[16-May-2019 20:04:42 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home/soktamas/public_html/eredmeny_lekerdezes_kezd_kod.php:6
 Stack trace:
 #0 /home/soktamas/public_html/eredmeny_kod.php(133): include()
 #1 /home/soktamas/public_html/eredmeny_keret.php(56): include('/home/soktamas/...')
@@ -401,19 +401,19 @@ Stack trace:
 [16-May-2019 20:04:43 Europe/London] PHP Notice:  Use of undefined constant email - assumed 'email' in /home/soktamas/public_html/regisztracio_kod.php on line 6
 [16-May-2019 20:04:43 Europe/London] PHP Notice:  Undefined index: email in /home/soktamas/public_html/regisztracio_kod.php on line 6
 [16-May-2019 20:04:44 Europe/London] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /home/soktamas/public_html/kezdo_oldal_szoveg.php on line 3
-[16-May-2019 20:04:45 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/soktamas/public_html/temavalasztas_gyakorlasra_kod.php:4
+[16-May-2019 20:04:45 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home/soktamas/public_html/temavalasztas_gyakorlasra_kod.php:4
 Stack trace:
 #0 /home/soktamas/public_html/gyakorlas_kezd.php(57): include()
 #1 {main}
   thrown in /home/soktamas/public_html/temavalasztas_gyakorlasra_kod.php on line 4
 [16-May-2019 20:04:48 Europe/London] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /home/soktamas/public_html/kezdo_oldal_szoveg.php on line 3
-[16-May-2019 20:04:49 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/soktamas/public_html/temavalasztas_gyakorlasra_kod.php:4
+[16-May-2019 20:04:49 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home/soktamas/public_html/temavalasztas_gyakorlasra_kod.php:4
 Stack trace:
 #0 /home/soktamas/public_html/gyakorlas_kezd.php(57): include()
 #1 {main}
   thrown in /home/soktamas/public_html/temavalasztas_gyakorlasra_kod.php on line 4
 [16-May-2019 20:04:50 Europe/London] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /home/soktamas/public_html/kezdo_oldal_szoveg.php on line 3
-[16-May-2019 20:04:51 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/soktamas/public_html/temavalasztas_gyakorlasra_kod.php:4
+[16-May-2019 20:04:51 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home/soktamas/public_html/temavalasztas_gyakorlasra_kod.php:4
 Stack trace:
 #0 /home/soktamas/public_html/gyakorlas_kezd.php(57): include()
 #1 {main}
@@ -421,12 +421,12 @@ Stack trace:
 [16-May-2019 20:04:52 Europe/London] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /home/soktamas/public_html/kezdo_oldal_szoveg.php on line 3
 [16-May-2019 20:11:20 Europe/London] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /home/soktamas/public_html/kezdo_oldal_szoveg.php on line 3
 [16-May-2019 20:11:24 Europe/London] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /home/soktamas/public_html/kezdo_oldal_szoveg.php on line 3
-[16-May-2019 20:11:25 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/soktamas/public_html/temavalasztas_gyakorlasra_kod.php:4
+[16-May-2019 20:11:25 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home/soktamas/public_html/temavalasztas_gyakorlasra_kod.php:4
 Stack trace:
 #0 /home/soktamas/public_html/gyakorlas_kezd.php(57): include()
 #1 {main}
   thrown in /home/soktamas/public_html/temavalasztas_gyakorlasra_kod.php on line 4
-[16-May-2019 20:11:26 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/soktamas/public_html/temavalasztas_szamonkeresre_kod.php:5
+[16-May-2019 20:11:26 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home/soktamas/public_html/temavalasztas_szamonkeresre_kod.php:5
 Stack trace:
 #0 /home/soktamas/public_html/szamonkeres_kezd.php(57): include()
 #1 {main}
@@ -452,7 +452,7 @@ Stack trace:
 [16-May-2019 20:11:28 Europe/London] PHP Notice:  Constant DB_FELH_NEV already defined in /home/soktamas/public_html/beallitas.php on line 3
 [16-May-2019 20:11:28 Europe/London] PHP Notice:  Constant DB_JELSZO already defined in /home/soktamas/public_html/beallitas.php on line 4
 [16-May-2019 20:11:28 Europe/London] PHP Notice:  Constant DB_NEV already defined in /home/soktamas/public_html/beallitas.php on line 5
-[16-May-2019 20:11:28 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/soktamas/public_html/eredmeny_lekerdezes_kezd_kod.php:6
+[16-May-2019 20:11:28 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home/soktamas/public_html/eredmeny_lekerdezes_kezd_kod.php:6
 Stack trace:
 #0 /home/soktamas/public_html/eredmeny_kod.php(133): include()
 #1 /home/soktamas/public_html/eredmeny_keret.php(56): include('/home/soktamas/...')
@@ -489,30 +489,30 @@ Stack trace:
 [16-May-2019 20:11:33 Europe/London] PHP Notice:  Constant DB_FELH_NEV already defined in /home/soktamas/public_html/beallitas.php on line 3
 [16-May-2019 20:11:33 Europe/London] PHP Notice:  Constant DB_JELSZO already defined in /home/soktamas/public_html/beallitas.php on line 4
 [16-May-2019 20:11:33 Europe/London] PHP Notice:  Constant DB_NEV already defined in /home/soktamas/public_html/beallitas.php on line 5
-[16-May-2019 20:11:33 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/soktamas/public_html/eredmeny_lekerdezes_kezd_kod.php:6
+[16-May-2019 20:11:33 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home/soktamas/public_html/eredmeny_lekerdezes_kezd_kod.php:6
 Stack trace:
 #0 /home/soktamas/public_html/eredmeny_kod.php(133): include()
 #1 /home/soktamas/public_html/eredmeny_keret.php(56): include('/home/soktamas/...')
 #2 {main}
   thrown in /home/soktamas/public_html/eredmeny_lekerdezes_kezd_kod.php on line 6
-[16-May-2019 20:11:35 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/soktamas/public_html/temavalasztas_szamonkeresre_kod.php:5
+[16-May-2019 20:11:35 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home/soktamas/public_html/temavalasztas_szamonkeresre_kod.php:5
 Stack trace:
 #0 /home/soktamas/public_html/szamonkeres_kezd.php(57): include()
 #1 {main}
   thrown in /home/soktamas/public_html/temavalasztas_szamonkeresre_kod.php on line 5
-[16-May-2019 20:11:36 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/soktamas/public_html/temavalasztas_gyakorlasra_kod.php:4
+[16-May-2019 20:11:36 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home/soktamas/public_html/temavalasztas_gyakorlasra_kod.php:4
 Stack trace:
 #0 /home/soktamas/public_html/gyakorlas_kezd.php(57): include()
 #1 {main}
   thrown in /home/soktamas/public_html/temavalasztas_gyakorlasra_kod.php on line 4
 [16-May-2019 20:11:37 Europe/London] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /home/soktamas/public_html/kezdo_oldal_szoveg.php on line 3
 [16-May-2019 20:12:28 Europe/London] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /home/soktamas/public_html/kezdo_oldal_szoveg.php on line 3
-[16-May-2019 20:12:30 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/soktamas/public_html/temavalasztas_gyakorlasra_kod.php:4
+[16-May-2019 20:12:30 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home/soktamas/public_html/temavalasztas_gyakorlasra_kod.php:4
 Stack trace:
 #0 /home/soktamas/public_html/gyakorlas_kezd.php(57): include()
 #1 {main}
   thrown in /home/soktamas/public_html/temavalasztas_gyakorlasra_kod.php on line 4
-[16-May-2019 20:12:31 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/soktamas/public_html/temavalasztas_szamonkeresre_kod.php:5
+[16-May-2019 20:12:31 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home/soktamas/public_html/temavalasztas_szamonkeresre_kod.php:5
 Stack trace:
 #0 /home/soktamas/public_html/szamonkeres_kezd.php(57): include()
 #1 {main}
@@ -538,7 +538,7 @@ Stack trace:
 [16-May-2019 20:12:32 Europe/London] PHP Notice:  Constant DB_FELH_NEV already defined in /home/soktamas/public_html/beallitas.php on line 3
 [16-May-2019 20:12:32 Europe/London] PHP Notice:  Constant DB_JELSZO already defined in /home/soktamas/public_html/beallitas.php on line 4
 [16-May-2019 20:12:32 Europe/London] PHP Notice:  Constant DB_NEV already defined in /home/soktamas/public_html/beallitas.php on line 5
-[16-May-2019 20:12:32 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/soktamas/public_html/eredmeny_lekerdezes_kezd_kod.php:6
+[16-May-2019 20:12:32 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home/soktamas/public_html/eredmeny_lekerdezes_kezd_kod.php:6
 Stack trace:
 #0 /home/soktamas/public_html/eredmeny_kod.php(133): include()
 #1 /home/soktamas/public_html/eredmeny_keret.php(56): include('/home/soktamas/...')
@@ -555,34 +555,34 @@ Stack trace:
 [16-May-2019 20:12:33 Europe/London] PHP Notice:  Use of undefined constant email - assumed 'email' in /home/soktamas/public_html/regisztracio_kod.php on line 6
 [16-May-2019 20:12:33 Europe/London] PHP Notice:  Undefined index: email in /home/soktamas/public_html/regisztracio_kod.php on line 6
 [16-May-2019 20:12:34 Europe/London] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /home/soktamas/public_html/kezdo_oldal_szoveg.php on line 3
-[16-May-2019 20:23:12 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/soktamas/public_html/temavalasztas_gyakorlasra_kod.php:4
+[16-May-2019 20:23:12 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home/soktamas/public_html/temavalasztas_gyakorlasra_kod.php:4
 Stack trace:
 #0 /home/soktamas/public_html/gyakorlas_kezd.php(57): include()
 #1 {main}
   thrown in /home/soktamas/public_html/temavalasztas_gyakorlasra_kod.php on line 4
 [16-May-2019 20:23:13 Europe/London] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /home/soktamas/public_html/kezdo_oldal_szoveg.php on line 3
-[16-May-2019 20:23:15 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/soktamas/public_html/temavalasztas_gyakorlasra_kod.php:4
+[16-May-2019 20:23:15 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home/soktamas/public_html/temavalasztas_gyakorlasra_kod.php:4
 Stack trace:
 #0 /home/soktamas/public_html/gyakorlas_kezd.php(57): include()
 #1 {main}
   thrown in /home/soktamas/public_html/temavalasztas_gyakorlasra_kod.php on line 4
-[16-May-2019 20:23:39 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/soktamas/public_html/temavalasztas_gyakorlasra_kod.php:4
+[16-May-2019 20:23:39 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home/soktamas/public_html/temavalasztas_gyakorlasra_kod.php:4
 Stack trace:
 #0 /home/soktamas/public_html/gyakorlas_kezd.php(57): include()
 #1 {main}
   thrown in /home/soktamas/public_html/temavalasztas_gyakorlasra_kod.php on line 4
 [16-May-2019 20:23:42 Europe/London] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /home/soktamas/public_html/kezdo_oldal_szoveg.php on line 3
-[16-May-2019 20:23:44 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/soktamas/public_html/temavalasztas_gyakorlasra_kod.php:4
+[16-May-2019 20:23:44 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home/soktamas/public_html/temavalasztas_gyakorlasra_kod.php:4
 Stack trace:
 #0 /home/soktamas/public_html/gyakorlas_kezd.php(57): include()
 #1 {main}
   thrown in /home/soktamas/public_html/temavalasztas_gyakorlasra_kod.php on line 4
-[16-May-2019 20:23:45 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/soktamas/public_html/temavalasztas_szamonkeresre_kod.php:5
+[16-May-2019 20:23:45 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home/soktamas/public_html/temavalasztas_szamonkeresre_kod.php:5
 Stack trace:
 #0 /home/soktamas/public_html/szamonkeres_kezd.php(57): include()
 #1 {main}
   thrown in /home/soktamas/public_html/temavalasztas_szamonkeresre_kod.php on line 5
-[16-May-2019 20:23:46 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/soktamas/public_html/temavalasztas_gyakorlasra_kod.php:4
+[16-May-2019 20:23:46 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home/soktamas/public_html/temavalasztas_gyakorlasra_kod.php:4
 Stack trace:
 #0 /home/soktamas/public_html/gyakorlas_kezd.php(57): include()
 #1 {main}
@@ -590,12 +590,12 @@ Stack trace:
 [16-May-2019 20:26:26 Europe/London] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /home/soktamas/public_html/kezdo_oldal_szoveg.php on line 3
 [16-May-2019 20:26:28 Europe/London] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /home/soktamas/public_html/kezdo_oldal_szoveg.php on line 3
 [16-May-2019 20:26:33 Europe/London] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /home/soktamas/public_html/kezdo_oldal_szoveg.php on line 3
-[16-May-2019 20:26:35 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/soktamas/public_html/temavalasztas_gyakorlasra_kod.php:4
+[16-May-2019 20:26:35 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home/soktamas/public_html/temavalasztas_gyakorlasra_kod.php:4
 Stack trace:
 #0 /home/soktamas/public_html/gyakorlas_kezd.php(57): include()
 #1 {main}
   thrown in /home/soktamas/public_html/temavalasztas_gyakorlasra_kod.php on line 4
-[16-May-2019 20:26:36 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/soktamas/public_html/temavalasztas_szamonkeresre_kod.php:5
+[16-May-2019 20:26:36 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home/soktamas/public_html/temavalasztas_szamonkeresre_kod.php:5
 Stack trace:
 #0 /home/soktamas/public_html/szamonkeres_kezd.php(57): include()
 #1 {main}
@@ -621,7 +621,7 @@ Stack trace:
 [16-May-2019 20:26:38 Europe/London] PHP Notice:  Constant DB_FELH_NEV already defined in /home/soktamas/public_html/beallitas.php on line 3
 [16-May-2019 20:26:38 Europe/London] PHP Notice:  Constant DB_JELSZO already defined in /home/soktamas/public_html/beallitas.php on line 4
 [16-May-2019 20:26:38 Europe/London] PHP Notice:  Constant DB_NEV already defined in /home/soktamas/public_html/beallitas.php on line 5
-[16-May-2019 20:26:38 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/soktamas/public_html/eredmeny_lekerdezes_kezd_kod.php:6
+[16-May-2019 20:26:38 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home/soktamas/public_html/eredmeny_lekerdezes_kezd_kod.php:6
 Stack trace:
 #0 /home/soktamas/public_html/eredmeny_kod.php(133): include()
 #1 /home/soktamas/public_html/eredmeny_keret.php(56): include('/home/soktamas/...')
@@ -638,23 +638,23 @@ Stack trace:
 [16-May-2019 20:26:38 Europe/London] PHP Notice:  Use of undefined constant email - assumed 'email' in /home/soktamas/public_html/regisztracio_kod.php on line 6
 [16-May-2019 20:26:38 Europe/London] PHP Notice:  Undefined index: email in /home/soktamas/public_html/regisztracio_kod.php on line 6
 [16-May-2019 20:26:39 Europe/London] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /home/soktamas/public_html/kezdo_oldal_szoveg.php on line 3
-[16-May-2019 21:53:57 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/soktamas/public_html/temavalasztas_szamonkeresre_kod.php:5
+[16-May-2019 21:53:57 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home/soktamas/public_html/temavalasztas_szamonkeresre_kod.php:5
 Stack trace:
 #0 /home/soktamas/public_html/szamonkeres_kezd.php(57): include()
 #1 {main}
   thrown in /home/soktamas/public_html/temavalasztas_szamonkeresre_kod.php on line 5
-[16-May-2019 21:59:52 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/soktamas/public_html/temavalasztas_szamonkeresre_kod.php:5
+[16-May-2019 21:59:52 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home/soktamas/public_html/temavalasztas_szamonkeresre_kod.php:5
 Stack trace:
 #0 /home/soktamas/public_html/szamonkeres_kezd.php(57): include()
 #1 {main}
   thrown in /home/soktamas/public_html/temavalasztas_szamonkeresre_kod.php on line 5
 [16-May-2019 21:59:54 Europe/London] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /home/soktamas/public_html/kezdo_oldal_szoveg.php on line 3
-[16-May-2019 21:59:55 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/soktamas/public_html/temavalasztas_gyakorlasra_kod.php:4
+[16-May-2019 21:59:55 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home/soktamas/public_html/temavalasztas_gyakorlasra_kod.php:4
 Stack trace:
 #0 /home/soktamas/public_html/gyakorlas_kezd.php(57): include()
 #1 {main}
   thrown in /home/soktamas/public_html/temavalasztas_gyakorlasra_kod.php on line 4
-[16-May-2019 21:59:56 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/soktamas/public_html/temavalasztas_szamonkeresre_kod.php:5
+[16-May-2019 21:59:56 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home/soktamas/public_html/temavalasztas_szamonkeresre_kod.php:5
 Stack trace:
 #0 /home/soktamas/public_html/szamonkeres_kezd.php(57): include()
 #1 {main}
@@ -680,7 +680,7 @@ Stack trace:
 [16-May-2019 21:59:58 Europe/London] PHP Notice:  Constant DB_FELH_NEV already defined in /home/soktamas/public_html/beallitas.php on line 3
 [16-May-2019 21:59:58 Europe/London] PHP Notice:  Constant DB_JELSZO already defined in /home/soktamas/public_html/beallitas.php on line 4
 [16-May-2019 21:59:58 Europe/London] PHP Notice:  Constant DB_NEV already defined in /home/soktamas/public_html/beallitas.php on line 5
-[16-May-2019 21:59:58 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/soktamas/public_html/eredmeny_lekerdezes_kezd_kod.php:6
+[16-May-2019 21:59:58 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /home/soktamas/public_html/eredmeny_lekerdezes_kezd_kod.php:6
 Stack trace:
 #0 /home/soktamas/public_html/eredmeny_kod.php(133): include()
 #1 /home/soktamas/public_html/eredmeny_keret.php(56): include('/home/soktamas/...')

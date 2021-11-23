@@ -3,20 +3,20 @@
 include 'beallitas.php';
 
 //Létrehozzuk az összeköttetést az adatbázissal
-$ossz = mysql_connect(DB_HOSZT, DB_FELH_NEV, DB_JELSZO) or die(mysql_error());
-mysql_select_db(DB_NEV,$ossz)  or die(mysql_error());
+$ossz = mysqli_connect(DB_HOSZT, DB_FELH_NEV, DB_JELSZO) or die(mysqli_error());
+mysqli_select_db(DB_NEV,$ossz)  or die(mysqli_error());
 
 //Összeállítjuk és futtatjuk a lekérdezést
 $sql = "select azon, vnev, knev from azonositas where azon = '$_POST[felh_nev_mezo]' AND jelszo = '$_POST[jelszo]'";
-$eredmeny = mysql_query($sql,$ossz) or die(mysql_error());
+$eredmeny = mysqli_query($sql,$ossz) or die(mysqli_error());
 
 
 //Helyes felhasználónév és jelszó esetén 1 sort kellett kapnunk
-if (mysql_num_rows($eredmeny) == 1) {
+if (mysqli_num_rows($eredmeny) == 1) {
    //Kiolvassuk a jogosult felhasználó nevét
-   $v_nev = mysql_result($eredmeny, 0, 'vnev');
-   $k_nev = mysql_result($eredmeny, 0, 'knev');
-   $felh_nev=mysql_result($eredmeny, 0, 'azon');
+   $v_nev = mysqli_result($eredmeny, 0, 'vnev');
+   $k_nev = mysqli_result($eredmeny, 0, 'knev');
+   $felh_nev=mysqli_result($eredmeny, 0, 'azon');
    $jelszo=$_POST[jelszo];
 
    //Összeállítjuk az üzenetet és a menüt
@@ -39,15 +39,15 @@ if (mysql_num_rows($eredmeny) == 1) {
   
   
   //lekérdezzük a felhasználó témáit, csak ezeket szerkesztheti
-  $ossz = mysql_connect(DB_HOSZT, DB_FELH_NEV, DB_JELSZO);
-  mysql_select_db(DB_NEV, $ossz);
+  $ossz = mysqli_connect(DB_HOSZT, DB_FELH_NEV, DB_JELSZO);
+  mysqli_select_db(DB_NEV, $ossz);
   $sql = "SELECT * FROM temak where tulajdonos='$felh_nev' Order By Tema_nev";
-  $eredmeny = mysql_query($sql, $ossz) or die(mysql_error());
+  $eredmeny = mysqli_query($sql, $ossz) or die(mysqli_error());
   
   //A témákat felvesszük egy legördulő menübe, egy formba
   $szerkesztes_menu="<form method=\"post\" action=\"tesztepito_keret.php\">";
   $szerkesztes_menu.="<select name=\"Tema_neve_box\">";              
-  while ($ujTomb = mysql_fetch_array($eredmeny)) {
+  while ($ujTomb = mysqli_fetch_array($eredmeny)) {
       $Tema_nev=$ujTomb['Tema_nev'];
       $szerkesztes_menu.= "\t<option>$Tema_nev\n";
   } 
@@ -59,10 +59,10 @@ if (mysql_num_rows($eredmeny) == 1) {
   $szerkesztes_menu.="</form>";
   
   //itt kezdődik a törlés legördülő menü felépítése
-  $eredmeny = mysql_query($sql, $ossz) or die(mysql_error());
+  $eredmeny = mysqli_query($sql, $ossz) or die(mysqli_error());
   $torles_menu="<form method=\"post\" action=\"biztos_benne_keret.php\">";
   $torles_menu.="<select name=\"Tema_neve_box\">";              
-  while ($ujTomb = mysql_fetch_array($eredmeny)) {
+  while ($ujTomb = mysqli_fetch_array($eredmeny)) {
       $Tema_nev=$ujTomb['Tema_nev'];
       $torles_menu.= "\t<option>$Tema_nev\n";
   } 

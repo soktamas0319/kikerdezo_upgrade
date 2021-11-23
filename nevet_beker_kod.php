@@ -26,7 +26,7 @@ $celoldal = "eredmeny_keret.php";
       <?php print "$temanev"; ?>
    </h2>
 
-   <!--A form kezdete>
+   <!--A form kezdete-->
 <form action="<?php print "$celoldal" ?>" method="POST"> 
    <input type="hidden"  name="Tema" value="<?php print "$temanev" ?>">
    <input type="hidden"  name="tema_azon" value="<?php print $idtema ?>">

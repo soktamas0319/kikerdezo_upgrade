@@ -55,13 +55,13 @@
           <div align="left" id="imTitle" style="width:730">Tesztépítő</div>
 
           <div style="height:0px; width:730px; position: relative">
-            <!--div id="imToolTip"></div>
+            <!--div id="imToolTip"></div-->
 
 
 
-<!--Beillesztés kezdete>
+<!--Beillesztés kezdete-->
 <?php include 'temafeltoltes_form_kod.php' ?>
-<!--Beillesztés vége>
+<!--Beillesztés vége-->
 
 
 </div>

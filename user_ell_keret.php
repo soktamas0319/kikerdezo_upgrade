@@ -1,6 +1,6 @@
-﻿<!--Beillesztés kezdete>
+﻿<!--Beillesztés kezdete-->
 <?php include 'user_ell_kod.php'; ?>
-<!--Beillesztés vége>
+<!--Beillesztés vége-->
 
 
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
@@ -55,7 +55,7 @@
 <div align="left" id="imTitle" style="width:730">Tesztépítő</div>
 
 <div style="height:0px; width:730px; position: relative">
-<!--div id="imToolTip"></div>
+<!--div id="imToolTip"></div-->
 
 
 <?php print "$uzenet";

@@ -19,11 +19,11 @@ $szinv2="#000000";
 
 function ujtema($Temanev){
   global $Temanev;
-  $ossz=mysql_connect(DB_HOSZT, DB_FELH_NEV, DB_JELSZO);
-  mysql_select_db(DB_NEV, $ossz);
+  $ossz=mysqli_connect(DB_HOSZT, DB_FELH_NEV, DB_JELSZO);
+  mysqli_select_db(DB_NEV, $ossz);
   $sql="select * from temak where Tema_nev='$Temanev'";
-  $eredmeny=mysql_query($sql, $ossz) or die ("Hiba a téma ellenőrzésében:" .mysql_error());
-  if (mysql_num_rows($eredmeny)>0){
+  $eredmeny=mysqli_query($sql, $ossz) or die ("Hiba a téma ellenőrzésében:" .mysqli_error());
+  if (mysqli_num_rows($eredmeny)>0){
     return false;
   } 
   else {
@@ -34,26 +34,26 @@ function ujtema($Temanev){
 //Az ideiglenes tábla adatbázisba írása
 function kerdeseket_rogzit(){
   global $Temanev, $tulajdonos, $id_tablanev;
-  $ossz=mysql_connect(DB_HOSZT, DB_FELH_NEV, DB_JELSZO);
-  mysql_select_db(DB_NEV, $ossz);
+  $ossz=mysqli_connect(DB_HOSZT, DB_FELH_NEV, DB_JELSZO);
+  mysqli_select_db(DB_NEV, $ossz);
   if (ujtema($Temanev)){  //ha új téma, hozzáadjuk a témát és a tulajdonost
     $tema_sql="insert into temak (Tema_nev, tulajdonos) values ('$Temanev', '$tulajdonos')";
-    $eredmeny=mysql_query($tema_sql, $ossz) or die("Hiba a téma hozzáadásában: ".mysql_error());
-    $idTema=mysql_insert_id();  //az új téma id-je
+    $eredmeny=mysqli_query($tema_sql, $ossz) or die("Hiba a téma hozzáadásában: ".mysqli_error());
+    $idTema=mysqli_insert_id();  //az új téma id-je
   }
   else{                   //ha nem új téma cseréljük az újra (szerkesztésnél)
     $tema_sql="select idTema from temak where Tema_nev='$Temanev'";
-    $eredmeny=mysql_query($tema_sql, $ossz) or die ("Hiba a téma lekérdezésében: ".mysql_error());
-    $adatok=mysql_fetch_array($eredmeny);
+    $eredmeny=mysqli_query($tema_sql, $ossz) or die ("Hiba a téma lekérdezésében: ".mysqli_error());
+    $adatok=mysqli_fetch_array($eredmeny);
     $idTema=$adatok[idTema]; //megkeressük a témához tartozó id-t
     $sql_torles="delete from kerd_val where idTema='$idTema'";      //az addigi kérdéseket töröljük
-    $eredmeny1=mysql_query($sql_torles, $ossz) or die ("Hiba a törléskor: ".mysql_error());
+    $eredmeny1=mysqli_query($sql_torles, $ossz) or die ("Hiba a törléskor: ".mysqli_error());
   }
   //lekérdezzük az összes adatot az ideiglenes táblából  	
   $sql="select * from $id_tablanev";
-  $eredmeny2=mysql_query($sql, $ossz) or die ("Hiba az ideiglenes tábla lekérdezésben: ".mysql_error());
+  $eredmeny2=mysqli_query($sql, $ossz) or die ("Hiba az ideiglenes tábla lekérdezésben: ".mysqli_error());
   //kiírjuk ideiglenes tartalmát a kerd_val táblába
-  while($adatok=mysql_fetch_array($eredmeny2)){
+  while($adatok=mysqli_fetch_array($eredmeny2)){
     $KerdesN=$adatok[KerdesN];
     $kerdes=$adatok[Kerdes];
     $v1=$adatok[valasz1];
@@ -61,15 +61,15 @@ function kerdeseket_rogzit(){
     $v3=$adatok[valasz3];
     $helyes=$adatok[helyes];
     $sql2="insert into kerd_val values ($idTema, $KerdesN, '$kerdes', '$v1', '$v2', '$v3', $helyes)";
-    $eredmeny3=mysql_query($sql2, $ossz) or die("Hiba az adatbázisba íráskor ".$idTema.mysql_error());
+    $eredmeny3=mysqli_query($sql2, $ossz) or die("Hiba az adatbázisba íráskor ".$idTema.mysqli_error());
   }
 }
 
 //Létrehozunk a felhasználónak egy ideiglenes táblát
 function ideiglenes_tabla_letrehozas($id_tablanev){
 global $id_tablanev;
-  $ossz=mysql_connect(DB_HOSZT, DB_FELH_NEV, DB_JELSZO);
-  mysql_select_db(DB_NEV, $ossz);
+  $ossz=mysqli_connect(DB_HOSZT, DB_FELH_NEV, DB_JELSZO);
+  mysqli_select_db(DB_NEV, $ossz);
   $id_tablanev=$_POST[felh_nev_mezo]."_user_table";
   $sql="create table $id_tablanev (
                                            KerdesN integer, 
@@ -78,44 +78,44 @@ global $id_tablanev;
                                            valasz2 varchar(250), 
                                            valasz3 varchar(250), 
                                            helyes integer)";
-$eredmeny=mysql_query($sql, $ossz) or die ("Hiba az ideiglenes tábla létrehozásában:" .mysql_error());
+$eredmeny=mysqli_query($sql, $ossz) or die ("Hiba az ideiglenes tábla létrehozásában:" .mysqli_error());
 }
 
 //feltöltjük az ideiglenes táblát a kerd_val táblából
 function ideiglenes_tablat_feltolt($id_tablanev, $Temanev){
-  $ossz=mysql_connect(DB_HOSZT, DB_FELH_NEV, DB_JELSZO);
-  $db=mysql_select_db(DB_NEV, $ossz);	
+  $ossz=mysqli_connect(DB_HOSZT, DB_FELH_NEV, DB_JELSZO);
+  $db=mysqli_select_db(DB_NEV, $ossz);	
 //Lekérdezzük a téma ID-t
   $sql_idTema="select idTema from temak where '$Temanev'=Tema_nev";
-  $eredmeny1=mysql_query($sql_idTema) or die("Hiba a témanév lekérdezésében ".mysql_error());
-  $mezo=mysql_fetch_array($eredmeny1);
+  $eredmeny1=mysqli_query($sql_idTema) or die("Hiba a témanév lekérdezésében ".mysqli_error());
+  $mezo=mysqli_fetch_array($eredmeny1);
   $idTema=$mezo[idTema];
   //Lekérdezzük a témához tartozó kérdéseket
   $sql="select * from kerd_val where '$idTema'=idTema";             
-  $eredmeny2=mysql_query($sql, $ossz) or die("A témához tartozó kérdések nem jeleníthetők meg ".mysql_error());
+  $eredmeny2=mysqli_query($sql, $ossz) or die("A témához tartozó kérdések nem jeleníthetők meg ".mysqli_error());
   $N=1;
   //  takaritas("$id_tablanev"); //kitöröljük az ideiglenes tábla tartalmát
-  while ($Mezo=mysql_fetch_array($eredmeny2)){                 //újra feltöltjük az ideiglenes táblát
+  while ($Mezo=mysqli_fetch_array($eredmeny2)){                 //újra feltöltjük az ideiglenes táblát
     $sql="insert into $id_tablanev values('$N',                 
                                      '$Mezo[kerdes]',
                                      '$Mezo[valasz1]',
                                      '$Mezo[valasz2]', 
                                      '$Mezo[valasz3]', 
                                      '$Mezo[helyes]')" ;
-    $Ok=mysql_query($sql, $ossz) or die("Ideiglenes feltöltési hiba ". mysql_error());
+    $Ok=mysqli_query($sql, $ossz) or die("Ideiglenes feltöltési hiba ". mysqli_error());
     $N++;
   }
 }
 
 
 function van_tabla($id_tablanev){
-  $ossz=mysql_connect(DB_HOSZT, DB_FELH_NEV, DB_JELSZO);
-  $db=mysql_select_db(DB_NEV, $ossz);	
-  $eredmeny = mysql_list_tables (DB_NEV);
+  $ossz=mysqli_connect(DB_HOSZT, DB_FELH_NEV, DB_JELSZO);
+  $db=mysqli_select_db(DB_NEV, $ossz);	
+  $eredmeny = mysqli_list_tables (DB_NEV);
   $i = 0;
   $vanilyen=false;
-  while ($i < mysql_num_rows ($eredmeny)) {
-    $tb_nevek[$i] = mysql_tablename ($eredmeny, $i);
+  while ($i < mysqli_num_rows ($eredmeny)) {
+    $tb_nevek[$i] = mysqli_tablename ($eredmeny, $i);
     if ($tb_nevek[$i]==$id_tablanev){
       $vanilyen=true;
     }
@@ -179,33 +179,33 @@ function kezdes(){
 
 function kerdest_rogzit_dbbe($KerdesN){
 global $id_tablanev;
-$ossz=mysql_connect(DB_HOSZT, DB_FELH_NEV, DB_JELSZO);
-$db=mysql_select_db(DB_NEV, $ossz);	
+$ossz=mysqli_connect(DB_HOSZT, DB_FELH_NEV, DB_JELSZO);
+$db=mysqli_select_db(DB_NEV, $ossz);	
 $sql="insert into $id_tablanev values('$KerdesN', 
                                      '$_POST[Kerdes_box]',
                                      '$_POST[Valasz1_box]',
                                      '$_POST[Valasz2_box]', 
                                      '$_POST[Valasz3_box]', 
                                      '$_POST[Helyes]')" ;
-$Ok=mysql_query($sql, $ossz) or die("Kérdés rögzítés hiba ". mysql_error());
+$Ok=mysqli_query($sql, $ossz) or die("Kérdés rögzítés hiba ". mysqli_error());
 }
 
 
 function kerdest_torol($KerdesN){
 global $id_tablanev;
-$ossz=mysql_connect(DB_HOSZT, DB_FELH_NEV, DB_JELSZO);
-$db=mysql_select_db(DB_NEV, $ossz);	
+$ossz=mysqli_connect(DB_HOSZT, DB_FELH_NEV, DB_JELSZO);
+$db=mysqli_select_db(DB_NEV, $ossz);	
 $sql="delete from $id_tablanev 
              where KerdesN=$KerdesN";
-$ok=mysql_query($sql, $ossz) or die("Hiba a törlés közben: " .mysql_error());
+$ok=mysqli_query($sql, $ossz) or die("Hiba a törlés közben: " .mysqli_error());
 ujraszamoz();
 }
 
 
 function kerdest_modosit($KerdesN){
 global $id_tablanev;
-$ossz=mysql_connect(DB_HOSZT, DB_FELH_NEV, DB_JELSZO);
-$db=mysql_select_db(DB_NEV, $ossz);	
+$ossz=mysqli_connect(DB_HOSZT, DB_FELH_NEV, DB_JELSZO);
+$db=mysqli_select_db(DB_NEV, $ossz);	
 $sql="update $id_tablanev set KerdesN='$KerdesN',
                             Kerdes='$_POST[Kerdes_box]',
                             valasz1='$_POST[Valasz1_box]',
@@ -213,17 +213,17 @@ $sql="update $id_tablanev set KerdesN='$KerdesN',
                             valasz3='$_POST[Valasz3_box]', 
                             helyes='$_POST[Helyes]'
        where KerdesN=$KerdesN" ;
-$Ok=mysql_query($sql, $ossz) or die("Hiba a módósításban: " .mysql_error());
+$Ok=mysqli_query($sql, $ossz) or die("Hiba a módósításban: " .mysqli_error());
 }
 
 function ujkerdes($KerdesN){
 global $id_tablanev;
-$ossz=mysql_connect(DB_HOSZT, DB_FELH_NEV, DB_JELSZO);
-$db=mysql_select_db(DB_NEV, $ossz);	
+$ossz=mysqli_connect(DB_HOSZT, DB_FELH_NEV, DB_JELSZO);
+$db=mysqli_select_db(DB_NEV, $ossz);	
 $sql="select * from $id_tablanev
       where ($KerdesN=KerdesN)" ;
-$eredmeny=mysql_query($sql, $ossz) or die("Újkérdés hiba".mysql_error());
-  if (mysql_num_rows($eredmeny)<1){
+$eredmeny=mysqli_query($sql, $ossz) or die("Újkérdés hiba".mysqli_error());
+  if (mysqli_num_rows($eredmeny)<1){
   return true;
   }else{ 
   return false;
@@ -232,12 +232,12 @@ $eredmeny=mysql_query($sql, $ossz) or die("Újkérdés hiba".mysql_error());
 
 function kerdest_kiir($KerdesN){
 global $k, $v1, $v2, $v3, $helyes, $id_tablanev;
-$ossz=mysql_connect(DB_HOSZT, DB_FELH_NEV, DB_JELSZO);
-$db=mysql_select_db(DB_NEV, $ossz);	
+$ossz=mysqli_connect(DB_HOSZT, DB_FELH_NEV, DB_JELSZO);
+$db=mysqli_select_db(DB_NEV, $ossz);	
 $sql="select * from $id_tablanev
       where KerdesN='$KerdesN'";
-$eredmeny=mysql_query($sql, $ossz) or die(mysql_error());
-$adatok=mysql_fetch_array($eredmeny);
+$eredmeny=mysqli_query($sql, $ossz) or die(mysqli_error());
+$adatok=mysqli_fetch_array($eredmeny);
 $k=$adatok[Kerdes];
 $v1=$adatok[valasz1];
 $v2=$adatok[valasz2];
@@ -247,38 +247,38 @@ $helyes=$adatok[helyes];
 
 
 function takaritas($tabla){
-$ossz=mysql_connect(DB_HOSZT, DB_FELH_NEV, DB_JELSZO);
-$db=mysql_select_db(DB_NEV, $ossz);	
+$ossz=mysqli_connect(DB_HOSZT, DB_FELH_NEV, DB_JELSZO);
+$db=mysqli_select_db(DB_NEV, $ossz);	
 $sql="delete from $tabla" ;
-$Torles_eredmeny=mysql_query($sql, $ossz) or die("Törlés nem sikerült ".mysql_error());
+$Torles_eredmeny=mysqli_query($sql, $ossz) or die("Törlés nem sikerült ".mysqli_error());
 }
 
 function ujraszamoz(){
 global $id_tablanev;
-  $ossz=mysql_connect(DB_HOSZT, DB_FELH_NEV, DB_JELSZO);
-  $db=mysql_select_db(DB_NEV, $ossz);	
+  $ossz=mysqli_connect(DB_HOSZT, DB_FELH_NEV, DB_JELSZO);
+  $db=mysqli_select_db(DB_NEV, $ossz);	
   $sql="select * from $id_tablanev";
-  $eredmeny=mysql_query($sql, $ossz) or die(mysql_error());
+  $eredmeny=mysqli_query($sql, $ossz) or die(mysqli_error());
   $N=1;
   takaritas("$id_tablanev"); //kitöröljük az ideiglenes tábla tartalmát
-  while ($Mezo=mysql_fetch_array($eredmeny)){                 //újra feltöltjük az ideiglenes táblát
+  while ($Mezo=mysqli_fetch_array($eredmeny)){                 //újra feltöltjük az ideiglenes táblát
     $sql="insert into $id_tablanev values('$N',                 
                                      '$Mezo[Kerdes]',
                                      '$Mezo[valasz1]',
                                      '$Mezo[valasz2]', 
                                      '$Mezo[valasz3]', 
                                      '$Mezo[helyes]')" ;
-    $Ok=mysql_query($sql, $ossz) or die("Kérdés újraszámozás hiba ". mysql_error());
+    $Ok=mysqli_query($sql, $ossz) or die("Kérdés újraszámozás hiba ". mysqli_error());
     $N++;
   }
 }
 
 function maxkerdes($tabla){
-  $ossz=mysql_connect(DB_HOSZT, DB_FELH_NEV, DB_JELSZO);
-  $db=mysql_select_db(DB_NEV, $ossz);	
+  $ossz=mysqli_connect(DB_HOSZT, DB_FELH_NEV, DB_JELSZO);
+  $db=mysqli_select_db(DB_NEV, $ossz);	
   $sql="select max(KerdesN) as MaxN from $tabla";
-  $max_eredmeny=mysql_query($sql, $ossz) or die(mysql_error());
-  $mezo=mysql_fetch_array($max_eredmeny);
+  $max_eredmeny=mysqli_query($sql, $ossz) or die(mysqli_error());
+  $mezo=mysqli_fetch_array($max_eredmeny);
   $max= $mezo[MaxN];
   return $max;
 } 
@@ -331,10 +331,10 @@ function hibat_kiir()
  
 
 function tablat_torol($id_tablanev){
-  $ossz=mysql_connect(DB_HOSZT, DB_FELH_NEV, DB_JELSZO);
-  $db=mysql_select_db(DB_NEV, $ossz);	
+  $ossz=mysqli_connect(DB_HOSZT, DB_FELH_NEV, DB_JELSZO);
+  $db=mysqli_select_db(DB_NEV, $ossz);	
   $sql_torles="drop table $id_tablanev";
-  $torles_eredmeny=mysql_query($sql_torles, $ossz) or die("Hiba az ideiglenes tábla törlésekor ".mysql_error());
+  $torles_eredmeny=mysqli_query($sql_torles, $ossz) or die("Hiba az ideiglenes tábla törlésekor ".mysqli_error());
 }
 
 

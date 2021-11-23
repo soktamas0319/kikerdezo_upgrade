@@ -3,10 +3,10 @@
 
 include 'beallitas.php';
 
-$ossz = mysql_connect(DB_HOSZT, DB_FELH_NEV, DB_JELSZO);
-mysql_select_db(DB_NEV, $ossz);
+$ossz = mysqli_connect(DB_HOSZT, DB_FELH_NEV, DB_JELSZO);
+mysqli_select_db(DB_NEV, $ossz);
 $sql = "SELECT * FROM temak Order By Tema_nev";
-$eredmeny = mysql_query($sql, $ossz) or die(mysql_error());
+$eredmeny = mysqli_query($sql, $ossz) or die(mysqli_error());
 
 ?>
 <html>
@@ -25,7 +25,7 @@ $eredmeny = mysql_query($sql, $ossz) or die(mysql_error());
     Téma:
     <select name="Tema">
       <?php
-      while ($ujTomb = mysql_fetch_array($eredmeny)) {
+      while ($ujTomb = mysqli_fetch_array($eredmeny)) {
         $Tema_nev = $ujTomb['Tema_nev'];
         print "\t<option>$Tema_nev\n";
       }

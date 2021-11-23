@@ -4,18 +4,18 @@ include "beallitas.php";
   $temanev= $_POST[Tema];
   $db=$_POST[db];
 
-  $ossz=mysql_connect(DB_HOSZT, DB_FELH_NEV, DB_JELSZO);
-  mysql_select_db(DB_NEV, $ossz);	
+  $ossz=mysqli_connect(DB_HOSZT, DB_FELH_NEV, DB_JELSZO);
+  mysqli_select_db(DB_NEV, $ossz);	
 
 //Téma azonosító megállapítása
   $sql_lek1="select idTema from temak where Tema_nev='$temanev'";
-  $eredmeny1=mysql_query($sql_lek1, $ossz) or die("Hiba az eredmenyek tábla lekérdezésében ".mysql_error());
-  $mezo=mysql_fetch_array($eredmeny1);
+  $eredmeny1=mysqli_query($sql_lek1, $ossz) or die("Hiba az eredmenyek tábla lekérdezésében ".mysqli_error());
+  $mezo=mysqli_fetch_array($eredmeny1);
   $idTema=$mezo['idTema'];
 
 //A napló lekérdezése
   $sql_lek2="select * from naplo where idTema='$idTema' order by $_POST[rend_tipus] $_POST[sorrend], nev";
-  $eredmeny2=mysql_query($sql_lek2, $ossz) or die("Hiba a napló lekérdezésében ".mysql_error());
+  $eredmeny2=mysqli_query($sql_lek2, $ossz) or die("Hiba a napló lekérdezésében ".mysqli_error());
 
   print "<h3><b>$temanev </b><br>számonkérésének eredményei</h3>";
   print "<h3>1 - $db-ig</h3>";
@@ -28,7 +28,7 @@ include "beallitas.php";
   $tablazat_kod.= "</tr>";
 
   $i=0;
-  while ($mezo2=mysql_fetch_array($eredmeny2) and ($i<$db)){
+  while ($mezo2=mysqli_fetch_array($eredmeny2) and ($i<$db)){
     if (($i % 2) ==0){
       $hatterszin="LightGrey";
     }else{

@@ -50,6 +50,6 @@
 <br>
 <b> Jó tesztelést! </b>
 <br><br>
-<h4>Az oldal eddigi látogatóinak száma:</h4>
+<!-- <h4>Az oldal eddigi látogatóinak száma:</h4>
 <img src="http://freeweb.hu/counter?username=zspsztesztek&type=0">
-<br><br>
+ --><br><br>

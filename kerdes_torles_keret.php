@@ -59,9 +59,9 @@
 
 <br><br><br>
 
-<!--Beillesztés kezdete>
+<!--Beillesztés kezdete-->
 <?php include 'kerdes_torles_kod.php'; ?>
-<!--Beillesztés vége>
+<!--Beillesztés vége-->
 
 
 

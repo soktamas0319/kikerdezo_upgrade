@@ -56,11 +56,11 @@
           <div align="left" id="imTitle" style="width:730">Regisztráció</div>
 
           <div style="height:0px; width:730px; position: relative">
-            <!--div id="imToolTip"></div>
+            <!--div id="imToolTip"></div-->
 
-<!--Itt kezdődik>
+<!--Itt kezdődik-->
     <?php include 'segitseg_a_regisztraciohoz_szoveg.php' ?>
-<!--itt végződik>
+<!--itt végződik-->
 
   
 </div>
